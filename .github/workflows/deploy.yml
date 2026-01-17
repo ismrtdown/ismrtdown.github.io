@@ -26,6 +26,7 @@ concurrency:
 jobs:
   # Build job
   build:
+    environment: github-pages # Add this line if your secrets are scoped to the environment
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
