@@ -20,21 +20,30 @@ export default function Page() {
     "",
   );
 
-  async function reportStationClickHandler(station: STATION_IDS) {
-    // const res = fetch(`${BACKEND_URL}/report`, {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify({ station_code: [MrtMapping[station]] }),
-    // });
+  function reportStationClickHandler(station: STATION_IDS) {
     setSelectedStationId(station);
     setIsReportDialogOpen(true);
+  }
+  async function reportStationCodeHandler(stationCode: STATION_CODES) {
+    setIsReporting(false);
+    await fetch(`${BACKEND_URL}/report`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ station_code: stationCode }),
+    });
   }
 
   return (
     <>
-      <Dialog open={isReportDialogOpen} onOpenChange={setIsReportDialogOpen}>
+      <Dialog
+        open={isReportDialogOpen}
+        onOpenChange={(open) => {
+          setIsReportDialogOpen(open);
+          setIsReporting(true);
+        }}
+      >
         <DialogContent>
           {isReporting && selectedStationId && (
             <DialogHeader>
@@ -43,7 +52,18 @@ export default function Page() {
               </DialogTitle>
               {MrtMapping[selectedStationId].mrtCodes.map((station_code) => (
                 <DialogDescription key={station_code}>
-                  <StationBar station_code={station_code as STATION_CODES} size="large" />
+                  <button
+                    className="cursor-pointer"
+                    onClick={() =>
+                      reportStationCodeHandler(station_code as STATION_CODES)
+                    }
+                  >
+                    <StationBar
+                      station_code={station_code as STATION_CODES}
+                      size="large"
+                      name={MrtMapping[selectedStationId].name}
+                    />
+                  </button>
                 </DialogDescription>
               ))}
             </DialogHeader>

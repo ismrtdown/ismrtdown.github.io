@@ -21,15 +21,17 @@ const LINE_COLOR_MAPPING = {
 export function StationBar({
   station_code,
   size,
+  name,
 }: {
   station_code: STATION_CODES;
   size: "normal" | "large";
+  name: string;
 }) {
   return (
-    <div className="flex overflow-hidden rounded-xl">
-      <div
+    <div className="relative flex items-center gap-x-2">
+      <span
         className={cn(
-          "flex items-center justify-center ",
+          "inline-flex items-center justify-center rounded-xl px-3 py-2 font-bold text-sm text-white shadow-lg ring-2 ring-white/20",
           size === "large" ? "h-8 w-20" : "h-4 w-10",
         )}
         style={{
@@ -38,8 +40,11 @@ export function StationBar({
           backgroundColor: LINE_COLOR_MAPPING[LineMappings[station_code]],
         }}
       >
-        <span className="font-semibold text-white text-xs leading-none">
-          {station_code}
+        {station_code}
+      </span>
+      <div className="flex">
+        <span className="text-gray-800 text-sm group-hover:underline dark:text-gray-200">
+          {name}
         </span>
       </div>
     </div>
