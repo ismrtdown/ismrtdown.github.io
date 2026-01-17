@@ -1,4 +1,4 @@
-export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivElement> }) {
+export default function Map({ innerRef }: {innerRef: any}) {
   return (
     <div className="w-full h-full" ref={innerRef}>
       <div className="relative overflow-hidden">

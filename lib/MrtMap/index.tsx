@@ -10,7 +10,7 @@ interface Props{
 
 export function MrtMap(props: Props) {
   const [isLoading, setIsLoading] = useState(true);
-  const mapRef = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     if (mapRef.current) {
