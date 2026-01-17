@@ -41,7 +41,7 @@ export default function Page() {
         open={isReportDialogOpen}
         onOpenChange={(open) => {
           setIsReportDialogOpen(open);
-          setIsReporting(true);
+          setTimeout(() => setIsReporting(true), 100);
         }}
       >
         <DialogContent>

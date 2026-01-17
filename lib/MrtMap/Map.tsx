@@ -8,7 +8,6 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
             data-orientation="horizontal"
             role="tabpanel"
             aria-labelledby="radix-:rpn:-trigger-2032-12"
-            hidden=""
             id="radix-:rpn:-content-2032-12"
             tabIndex={0}
           />
@@ -17,7 +16,6 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
             data-orientation="horizontal"
             role="tabpanel"
             aria-labelledby="radix-:rpn:-trigger-2030-12"
-            hidden=""
             id="radix-:rpn:-content-2030-12"
             tabIndex={0}
           />
@@ -26,7 +24,6 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
             data-orientation="horizontal"
             role="tabpanel"
             aria-labelledby="radix-:rpn:-trigger-2029-12"
-            hidden=""
             id="radix-:rpn:-content-2029-12"
             tabIndex={0}
           />
@@ -35,7 +32,6 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
             data-orientation="horizontal"
             role="tabpanel"
             aria-labelledby="radix-:rpn:-trigger-2027-12"
-            hidden=""
             id="radix-:rpn:-content-2027-12"
             tabIndex={0}
           />
@@ -11473,7 +11469,6 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
             data-orientation="horizontal"
             role="tabpanel"
             aria-labelledby="radix-:rpn:-trigger-2024-11"
-            hidden=""
             id="radix-:rpn:-content-2024-11"
             tabIndex={0}
           />
@@ -11482,7 +11477,6 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
             data-orientation="horizontal"
             role="tabpanel"
             aria-labelledby="radix-:rpn:-trigger-2019-12"
-            hidden=""
             id="radix-:rpn:-content-2019-12"
             tabIndex={0}
           />
@@ -11491,7 +11485,6 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
             data-orientation="horizontal"
             role="tabpanel"
             aria-labelledby="radix-:rpn:-trigger-2017-11"
-            hidden=""
             id="radix-:rpn:-content-2017-11"
             tabIndex={0}
           />
@@ -11500,7 +11493,6 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
             data-orientation="horizontal"
             role="tabpanel"
             aria-labelledby="radix-:rpn:-trigger-2012-01"
-            hidden=""
             id="radix-:rpn:-content-2012-01"
             tabIndex={0}
           />

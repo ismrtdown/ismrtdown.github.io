@@ -14,11 +14,14 @@ export function MrtMap(props: Props) {
 
   useEffect(() => {
     if (mapRef.current) {
-      console.log(mapRef.current);
+      // console.log(mapRef.current);
       const labels = Array.from(mapRef.current.querySelectorAll("#labels"))[0];
       // console.log(labels);
       // const links = Array.from(Array.from(labels)[0].querySelectorAll("a"));
       labels.querySelectorAll("a").forEach((el) => {
+        const textEle = el.querySelector("tspan");
+
+
         const station = el.id as keyof typeof MrtMapping;
 
         el.style.cursor = "pointer";
