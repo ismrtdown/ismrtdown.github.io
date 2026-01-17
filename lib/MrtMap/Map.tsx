@@ -1672,7 +1672,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                   </g>
                 </g>
                 <g id="labels">
-                  <a id="s-JUR">
+                  <a id="JUR">
                     <text
                       id="label_jur"
                       fontFamily="Radio Canada Big"
@@ -1687,7 +1687,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Jurong East</title>
                     </text>
                   </a>
-                  <a id="s-CNG">
+                  <a id="CNG">
                     <text
                       id="label_cng"
                       fontFamily="Radio Canada Big"
@@ -1705,7 +1705,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Chinese Garden</title>
                     </text>
                   </a>
-                  <a id="s-BBT">
+                  <a id="BBT">
                     <text
                       id="label_bbt"
                       fontFamily="Radio Canada Big"
@@ -1720,7 +1720,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bukit Batok</title>
                     </text>
                   </a>
-                  <a id="s-BGB">
+                  <a id="BGB">
                     <text
                       id="label_bgb"
                       fontFamily="Radio Canada Big"
@@ -1735,7 +1735,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bukit Gombak</title>
                     </text>
                   </a>
-                  <a id="s-CCK">
+                  <a id="CCK">
                     <text
                       id="label_cck"
                       fontFamily="Radio Canada Big"
@@ -1750,7 +1750,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Choa Chu Kang</title>
                     </text>
                   </a>
-                  <a id="s-YWT">
+                  <a id="YWT">
                     <text
                       id="label_ywt"
                       fontFamily="Radio Canada Big"
@@ -1765,7 +1765,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Yew Tee</title>
                     </text>
                   </a>
-                  <a id="s-BKP">
+                  <a id="BKP">
                     <text
                       id="label_bkp"
                       fontFamily="Radio Canada Big"
@@ -1780,7 +1780,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bukit Panjang</title>
                     </text>
                   </a>
-                  <a id="s-KTH">
+                  <a id="KTH">
                     <text
                       id="label_kth"
                       fontFamily="Radio Canada Big"
@@ -1795,7 +1795,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Keat Hong</title>
                     </text>
                   </a>
-                  <a id="s-TKW">
+                  <a id="TKW">
                     <text
                       id="label_tkw"
                       fontFamily="Radio Canada Big"
@@ -1810,7 +1810,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Teck Whye</title>
                     </text>
                   </a>
-                  <a id="s-PNX">
+                  <a id="PNX">
                     <text
                       id="label_pnx"
                       fontFamily="Radio Canada Big"
@@ -1825,7 +1825,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Phoenix</title>
                     </text>
                   </a>
-                  <a id="s-SNJ">
+                  <a id="SNJ">
                     <text
                       id="label_snj"
                       fontFamily="Radio Canada Big"
@@ -1840,7 +1840,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Senja</title>
                     </text>
                   </a>
-                  <a id="s-JLP">
+                  <a id="JLP">
                     <text
                       id="label_jlp"
                       fontFamily="Radio Canada Big"
@@ -1855,7 +1855,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Jelapang</title>
                     </text>
                   </a>
-                  <a id="s-SGR">
+                  <a id="SGR">
                     <text
                       id="label_sgr"
                       fontFamily="Radio Canada Big"
@@ -1870,7 +1870,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Segar</title>
                     </text>
                   </a>
-                  <a id="s-FJR">
+                  <a id="FJR">
                     <text
                       id="label_fjr"
                       fontFamily="Radio Canada Big"
@@ -1885,7 +1885,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Fajar</title>
                     </text>
                   </a>
-                  <a id="s-STK">
+                  <a id="STK">
                     <text
                       id="label_stk"
                       fontFamily="Radio Canada Big"
@@ -1900,7 +1900,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Soo Teck</title>
                     </text>
                   </a>
-                  <a id="s-CGL">
+                  <a id="CGL">
                     <text
                       id="label_cgl"
                       fontFamily="Radio Canada Big"
@@ -1915,7 +1915,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Cheng Lim</title>
                     </text>
                   </a>
-                  <a id="s-FMW">
+                  <a id="FMW">
                     <text
                       id="label_fmw"
                       fontFamily="Radio Canada Big"
@@ -1930,7 +1930,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Farmway</title>
                     </text>
                   </a>
-                  <a id="s-KPG">
+                  <a id="KPG">
                     <text
                       id="label_kpg"
                       fontFamily="Radio Canada Big"
@@ -1945,7 +1945,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Kupang</title>
                     </text>
                   </a>
-                  <a id="s-TNG">
+                  <a id="TNG">
                     <text
                       id="label_tng"
                       fontFamily="Radio Canada Big"
@@ -1960,7 +1960,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Thanggam</title>
                     </text>
                   </a>
-                  <a id="s-FNV">
+                  <a id="FNV">
                     <text
                       id="label_fnv"
                       fontFamily="Radio Canada Big"
@@ -1975,7 +1975,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Fernvale</title>
                     </text>
                   </a>
-                  <a id="s-LYR">
+                  <a id="LYR">
                     <text
                       id="label_lyr"
                       fontFamily="Radio Canada Big"
@@ -1990,7 +1990,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Layar</title>
                     </text>
                   </a>
-                  <a id="s-TKG">
+                  <a id="TKG">
                     <text
                       id="label_tkg"
                       fontFamily="Radio Canada Big"
@@ -2005,7 +2005,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tongkang</title>
                     </text>
                   </a>
-                  <a id="s-RNJ">
+                  <a id="RNJ">
                     <text
                       id="label_rnj"
                       fontFamily="Radio Canada Big"
@@ -2020,7 +2020,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Renjong</title>
                     </text>
                   </a>
-                  <a id="s-RNG">
+                  <a id="RNG">
                     <text
                       id="label_rng"
                       fontFamily="Radio Canada Big"
@@ -2035,7 +2035,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Ranggung</title>
                     </text>
                   </a>
-                  <a id="s-KGK">
+                  <a id="KGK">
                     <text
                       id="label_kgk"
                       fontFamily="Radio Canada Big"
@@ -2050,7 +2050,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Kangkar</title>
                     </text>
                   </a>
-                  <a id="s-BAK">
+                  <a id="BAK">
                     <text
                       id="label_bak"
                       fontFamily="Radio Canada Big"
@@ -2065,7 +2065,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bakau</title>
                     </text>
                   </a>
-                  <a id="s-RMB">
+                  <a id="RMB">
                     <text
                       id="label_rmb"
                       fontFamily="Radio Canada Big"
@@ -2080,7 +2080,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Rumbia</title>
                     </text>
                   </a>
-                  <a id="s-CPV">
+                  <a id="CPV">
                     <text
                       id="label_cpv"
                       fontFamily="Radio Canada Big"
@@ -2095,7 +2095,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Compassvale</title>
                     </text>
                   </a>
-                  <a id="s-SMG">
+                  <a id="SMG">
                     <text
                       id="label_smg"
                       fontFamily="Radio Canada Big"
@@ -2110,7 +2110,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Sumang</title>
                     </text>
                   </a>
-                  <a id="s-NBG">
+                  <a id="NBG">
                     <text
                       id="label_nbg"
                       fontFamily="Radio Canada Big"
@@ -2125,7 +2125,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Nibong</title>
                     </text>
                   </a>
-                  <a id="s-SMD">
+                  <a id="SMD">
                     <text
                       id="label_smd"
                       fontFamily="Radio Canada Big"
@@ -2140,7 +2140,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Samudera</title>
                     </text>
                   </a>
-                  <a id="s-PGP">
+                  <a id="PGP">
                     <text
                       id="label_pgp"
                       fontFamily="Radio Canada Big"
@@ -2155,7 +2155,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Punggol Point</title>
                     </text>
                   </a>
-                  <a id="s-TKL">
+                  <a id="TKL">
                     <text
                       id="label_tkl"
                       fontFamily="Radio Canada Big"
@@ -2170,7 +2170,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Teck Lee</title>
                     </text>
                   </a>
-                  <a id="s-SMK">
+                  <a id="SMK">
                     <text
                       id="label_smk"
                       fontFamily="Radio Canada Big"
@@ -2185,7 +2185,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Sam Kee</title>
                     </text>
                   </a>
-                  <a id="s-DAM">
+                  <a id="DAM">
                     <text
                       id="label_dam"
                       fontFamily="Radio Canada Big"
@@ -2200,7 +2200,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Damai</title>
                     </text>
                   </a>
-                  <a id="s-OAS">
+                  <a id="OAS">
                     <text
                       id="label_oas"
                       fontFamily="Radio Canada Big"
@@ -2215,7 +2215,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Oasis</title>
                     </text>
                   </a>
-                  <a id="s-KDL">
+                  <a id="KDL">
                     <text
                       id="label_kdl"
                       fontFamily="Radio Canada Big"
@@ -2230,7 +2230,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Kadaloor</title>
                     </text>
                   </a>
-                  <a id="s-RIV">
+                  <a id="RIV">
                     <text
                       id="label_riv"
                       fontFamily="Radio Canada Big"
@@ -2245,7 +2245,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Riviera</title>
                     </text>
                   </a>
-                  <a id="s-CRE">
+                  <a id="CRE">
                     <text
                       id="label_cre"
                       fontFamily="Radio Canada Big"
@@ -2260,7 +2260,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Coral Edge</title>
                     </text>
                   </a>
-                  <a id="s-MRD">
+                  <a id="MRD">
                     <text
                       id="label_mrd"
                       fontFamily="Radio Canada Big"
@@ -2275,7 +2275,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Meridian</title>
                     </text>
                   </a>
-                  <a id="s-COV">
+                  <a id="COV">
                     <text
                       id="label_cov"
                       fontFamily="Radio Canada Big"
@@ -2290,7 +2290,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Cove</title>
                     </text>
                   </a>
-                  <a id="s-BKT">
+                  <a id="BKT">
                     <text
                       id="label_bkt"
                       fontFamily="Radio Canada Big"
@@ -2305,7 +2305,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bangkit</title>
                     </text>
                   </a>
-                  <a id="s-PND">
+                  <a id="PND">
                     <text
                       id="label_pnd"
                       fontFamily="Radio Canada Big"
@@ -2320,7 +2320,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Pending</title>
                     </text>
                   </a>
-                  <a id="s-PTR">
+                  <a id="PTR">
                     <text
                       id="label_ptr"
                       fontFamily="Radio Canada Big"
@@ -2335,7 +2335,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Petir</title>
                     </text>
                   </a>
-                  <a id="s-SHV">
+                  <a id="SHV">
                     <text
                       id="label_shv"
                       fontFamily="Radio Canada Big"
@@ -2350,7 +2350,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>South View</title>
                     </text>
                   </a>
-                  <a id="s-KRJ">
+                  <a id="KRJ">
                     <text
                       id="label_krj"
                       fontFamily="Radio Canada Big"
@@ -2365,7 +2365,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Kranji</title>
                     </text>
                   </a>
-                  <a id="s-CSW">
+                  <a id="CSW">
                     <text
                       id="label_csw"
                       fontFamily="Radio Canada Big"
@@ -2380,7 +2380,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Cashew</title>
                     </text>
                   </a>
-                  <a id="s-HVW">
+                  <a id="HVW">
                     <text
                       id="label_hvw"
                       fontFamily="Radio Canada Big"
@@ -2395,7 +2395,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Hillview</title>
                     </text>
                   </a>
-                  <a id="s-HME">
+                  <a id="HME">
                     <text
                       id="label_hme"
                       fontFamily="Radio Canada Big"
@@ -2410,7 +2410,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Hume</title>
                     </text>
                   </a>
-                  <a id="s-BTW">
+                  <a id="BTW">
                     <text
                       id="label_btw"
                       fontFamily="Radio Canada Big"
@@ -2425,7 +2425,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Beauty World</title>
                     </text>
                   </a>
-                  <a id="s-KAP">
+                  <a id="KAP">
                     <text
                       id="label_kap"
                       fontFamily="Radio Canada Big"
@@ -2440,7 +2440,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>King Albert Park</title>
                     </text>
                   </a>
-                  <a id="s-SAV">
+                  <a id="SAV">
                     <text
                       id="label_sav"
                       fontFamily="Radio Canada Big"
@@ -2455,7 +2455,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Sixth Avenue</title>
                     </text>
                   </a>
-                  <a id="s-TKK">
+                  <a id="TKK">
                     <text
                       id="label_tkk"
                       fontFamily="Radio Canada Big"
@@ -2470,7 +2470,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tan Kah Kee</title>
                     </text>
                   </a>
-                  <a id="s-MSL">
+                  <a id="MSL">
                     <text
                       id="label_msl"
                       fontFamily="Radio Canada Big"
@@ -2485,7 +2485,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Marsiling</title>
                     </text>
                   </a>
-                  <a id="s-WDL">
+                  <a id="WDL">
                     <text
                       id="label_wdl"
                       fontFamily="Radio Canada Big"
@@ -2500,7 +2500,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Woodlands</title>
                     </text>
                   </a>
-                  <a id="s-WDN">
+                  <a id="WDN">
                     <text
                       id="label_wdn"
                       fontFamily="Radio Canada Big"
@@ -2515,7 +2515,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Woodlands North</title>
                     </text>
                   </a>
-                  <a id="s-WDS">
+                  <a id="WDS">
                     <text
                       id="label_wds"
                       fontFamily="Radio Canada Big"
@@ -2530,7 +2530,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Woodlands South</title>
                     </text>
                   </a>
-                  <a id="s-SPL">
+                  <a id="SPL">
                     <text
                       id="label_spl"
                       fontFamily="Radio Canada Big"
@@ -2545,7 +2545,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Springleaf</title>
                     </text>
                   </a>
-                  <a id="s-LTR">
+                  <a id="LTR">
                     <text
                       id="label_ltr"
                       fontFamily="Radio Canada Big"
@@ -2560,7 +2560,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Lentor</title>
                     </text>
                   </a>
-                  <a id="s-MFL">
+                  <a id="MFL">
                     <text
                       id="label_mfl"
                       fontFamily="Radio Canada Big"
@@ -2575,7 +2575,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Mayflower</title>
                     </text>
                   </a>
-                  <a id="s-BRH">
+                  <a id="BRH">
                     <text
                       id="label_brh"
                       fontFamily="Radio Canada Big"
@@ -2590,7 +2590,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bright Hill</title>
                     </text>
                   </a>
-                  <a id="s-UTS">
+                  <a id="UTS">
                     <text
                       id="label_uts"
                       fontFamily="Radio Canada Big"
@@ -2605,7 +2605,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Upper Thomson</title>
                     </text>
                   </a>
-                  <a id="s-NPR">
+                  <a id="NPR">
                     <text
                       id="label_npr"
                       fontFamily="Radio Canada Big"
@@ -2620,7 +2620,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Napier</title>
                     </text>
                   </a>
-                  <a id="s-OBV">
+                  <a id="OBV">
                     <text
                       id="label_obv"
                       fontFamily="Radio Canada Big"
@@ -2635,7 +2635,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Orchard Boulevard</title>
                     </text>
                   </a>
-                  <a id="s-ADM">
+                  <a id="ADM">
                     <text
                       id="label_adm"
                       fontFamily="Radio Canada Big"
@@ -2650,7 +2650,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Admiralty</title>
                     </text>
                   </a>
-                  <a id="s-SBW">
+                  <a id="SBW">
                     <text
                       id="label_sbw"
                       fontFamily="Radio Canada Big"
@@ -2665,7 +2665,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Sembawang</title>
                     </text>
                   </a>
-                  <a id="s-CBR">
+                  <a id="CBR">
                     <text
                       id="label_cbr"
                       fontFamily="Radio Canada Big"
@@ -2680,7 +2680,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Canberra</title>
                     </text>
                   </a>
-                  <a id="s-YIS">
+                  <a id="YIS">
                     <text
                       id="label_yis"
                       fontFamily="Radio Canada Big"
@@ -2695,7 +2695,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Yishun</title>
                     </text>
                   </a>
-                  <a id="s-KTB">
+                  <a id="KTB">
                     <text
                       id="label_ktb"
                       fontFamily="Radio Canada Big"
@@ -2710,7 +2710,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Khatib</title>
                     </text>
                   </a>
-                  <a id="s-YCK">
+                  <a id="YCK">
                     <text
                       id="label_yck"
                       fontFamily="Radio Canada Big"
@@ -2725,7 +2725,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Yio Chu Kang</title>
                     </text>
                   </a>
-                  <a id="s-AMK">
+                  <a id="AMK">
                     <text
                       id="label_amk"
                       fontFamily="Radio Canada Big"
@@ -2740,7 +2740,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Ang Mo Kio</title>
                     </text>
                   </a>
-                  <a id="s-BSH">
+                  <a id="BSH">
                     <text
                       id="label_bsh"
                       fontFamily="Radio Canada Big"
@@ -2755,7 +2755,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bishan</title>
                     </text>
                   </a>
-                  <a id="s-LRC">
+                  <a id="LRC">
                     <text
                       id="label_lrc"
                       fontFamily="Radio Canada Big"
@@ -2770,7 +2770,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Lorong Chuan</title>
                     </text>
                   </a>
-                  <a id="s-SER">
+                  <a id="SER">
                     <text
                       id="label_ser"
                       fontFamily="Radio Canada Big"
@@ -2785,7 +2785,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Serangoon</title>
                     </text>
                   </a>
-                  <a id="s-BLY">
+                  <a id="BLY">
                     <text
                       id="label_bly"
                       fontFamily="Radio Canada Big"
@@ -2800,7 +2800,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bartley</title>
                     </text>
                   </a>
-                  <a id="s-TSG">
+                  <a id="TSG">
                     <text
                       id="label_tsg"
                       fontFamily="Radio Canada Big"
@@ -2815,7 +2815,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tai Seng</title>
                     </text>
                   </a>
-                  <a id="s-MPS">
+                  <a id="MPS">
                     <text
                       id="label_mps"
                       fontFamily="Radio Canada Big"
@@ -2830,7 +2830,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>MacPherson</title>
                     </text>
                   </a>
-                  <a id="s-UBI">
+                  <a id="UBI">
                     <text
                       id="label_ubi"
                       fontFamily="Radio Canada Big"
@@ -2845,7 +2845,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Ubi</title>
                     </text>
                   </a>
-                  <a id="s-KKB">
+                  <a id="KKB">
                     <text
                       id="label_kkb"
                       fontFamily="Radio Canada Big"
@@ -2860,7 +2860,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Kaki Bukit</title>
                     </text>
                   </a>
-                  <a id="s-BDN">
+                  <a id="BDN">
                     <text
                       id="label_bdn"
                       fontFamily="Radio Canada Big"
@@ -2875,7 +2875,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bedok North</title>
                     </text>
                   </a>
-                  <a id="s-BDR">
+                  <a id="BDR">
                     <text
                       id="label_bdr"
                       fontFamily="Radio Canada Big"
@@ -2893,7 +2893,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bedok Reservoir</title>
                     </text>
                   </a>
-                  <a id="s-TPW">
+                  <a id="TPW">
                     <text
                       id="label_tpw"
                       fontFamily="Radio Canada Big"
@@ -2911,7 +2911,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tampines West</title>
                     </text>
                   </a>
-                  <a id="s-TAM">
+                  <a id="TAM">
                     <text
                       id="label_tam"
                       fontFamily="Radio Canada Big"
@@ -2926,7 +2926,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tampines</title>
                     </text>
                   </a>
-                  <a id="s-TPE">
+                  <a id="TPE">
                     <text
                       id="label_tpe"
                       fontFamily="Radio Canada Big"
@@ -2941,7 +2941,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tampines East</title>
                     </text>
                   </a>
-                  <a id="s-UPC">
+                  <a id="UPC">
                     <text
                       id="label_upc"
                       fontFamily="Radio Canada Big"
@@ -2956,7 +2956,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Upper Changi</title>
                     </text>
                   </a>
-                  <a id="s-XPO">
+                  <a id="XPO">
                     <text
                       id="label_xpo"
                       fontFamily="Radio Canada Big"
@@ -2971,7 +2971,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Expo</title>
                     </text>
                   </a>
-                  <a id="s-CGA">
+                  <a id="CGA">
                     <text
                       id="label_cga"
                       fontFamily="Radio Canada Big"
@@ -2989,7 +2989,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Changi Airport</title>
                     </text>
                   </a>
-                  <a id="s-XLN">
+                  <a id="XLN">
                     <text
                       id="label_xln"
                       fontFamily="Radio Canada Big"
@@ -3004,7 +3004,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Xilin</title>
                     </text>
                   </a>
-                  <a id="s-SGB">
+                  <a id="SGB">
                     <text
                       id="label_sgb"
                       fontFamily="Radio Canada Big"
@@ -3019,7 +3019,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Sungei Bedok</title>
                     </text>
                   </a>
-                  <a id="s-PYL">
+                  <a id="PYL">
                     <text
                       id="label_pyl"
                       fontFamily="Radio Canada Big"
@@ -3034,7 +3034,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Paya Lebar</title>
                     </text>
                   </a>
-                  <a id="s-DKT">
+                  <a id="DKT">
                     <text
                       id="label_dkt"
                       fontFamily="Radio Canada Big"
@@ -3050,7 +3050,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Dakota</title>
                     </text>
                   </a>
-                  <a id="s-MBT">
+                  <a id="MBT">
                     <text
                       id="label_mbt"
                       fontFamily="Radio Canada Big"
@@ -3065,7 +3065,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Mountbatten</title>
                     </text>
                   </a>
-                  <a id="s-SDM">
+                  <a id="SDM">
                     <text
                       id="label_sdm"
                       fontFamily="Radio Canada Big"
@@ -3080,7 +3080,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Stadium</title>
                     </text>
                   </a>
-                  <a id="s-NCH">
+                  <a id="NCH">
                     <text
                       id="label_nch"
                       fontFamily="Radio Canada Big"
@@ -3095,7 +3095,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Nicoll Highway</title>
                     </text>
                   </a>
-                  <a id="s-PMN">
+                  <a id="PMN">
                     <text
                       id="label_pmn"
                       fontFamily="Radio Canada Big"
@@ -3110,7 +3110,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Promenade</title>
                     </text>
                   </a>
-                  <a id="s-EPN">
+                  <a id="EPN">
                     <text
                       id="label_epn"
                       fontFamily="Radio Canada Big"
@@ -3125,7 +3125,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Esplanade</title>
                     </text>
                   </a>
-                  <a id="s-BBS">
+                  <a id="BBS">
                     <text
                       id="label_bbs"
                       fontFamily="Radio Canada Big"
@@ -3143,7 +3143,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bras Basah</title>
                     </text>
                   </a>
-                  <a id="s-BFT">
+                  <a id="BFT">
                     <text
                       id="label_bft"
                       fontFamily="Radio Canada Big"
@@ -3158,7 +3158,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bayfront</title>
                     </text>
                   </a>
-                  <a id="s-BDL">
+                  <a id="BDL">
                     <text
                       id="label_bdl"
                       fontFamily="Radio Canada Big"
@@ -3173,7 +3173,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Braddell</title>
                     </text>
                   </a>
-                  <a id="s-TAP">
+                  <a id="TAP">
                     <text
                       id="label_tap"
                       fontFamily="Radio Canada Big"
@@ -3188,7 +3188,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Toa Payoh</title>
                     </text>
                   </a>
-                  <a id="s-PSR">
+                  <a id="PSR">
                     <text
                       id="label_psr"
                       fontFamily="Radio Canada Big"
@@ -3203,7 +3203,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Pasir Ris</title>
                     </text>
                   </a>
-                  <a id="s-PGC">
+                  <a id="PGC">
                     <text
                       id="label_pgc"
                       fontFamily="Radio Canada Big"
@@ -3218,7 +3218,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Punggol Coast</title>
                     </text>
                   </a>
-                  <a id="s-PGL">
+                  <a id="PGL">
                     <text
                       id="label_pgl"
                       fontFamily="Radio Canada Big"
@@ -3233,7 +3233,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Punggol</title>
                     </text>
                   </a>
-                  <a id="s-SKG">
+                  <a id="SKG">
                     <text
                       id="label_skg"
                       fontFamily="Radio Canada Big"
@@ -3248,7 +3248,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Sengkang</title>
                     </text>
                   </a>
-                  <a id="s-BGK">
+                  <a id="BGK">
                     <text
                       id="label_bgk"
                       fontFamily="Radio Canada Big"
@@ -3263,7 +3263,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Buangkok</title>
                     </text>
                   </a>
-                  <a id="s-HGN">
+                  <a id="HGN">
                     <text
                       id="label_hgn"
                       fontFamily="Radio Canada Big"
@@ -3278,7 +3278,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Hougang</title>
                     </text>
                   </a>
-                  <a id="s-KVN">
+                  <a id="KVN">
                     <text
                       id="label_kvn"
                       fontFamily="Radio Canada Big"
@@ -3293,7 +3293,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Kovan</title>
                     </text>
                   </a>
-                  <a id="s-WLH">
+                  <a id="WLH">
                     <text
                       id="label_wlh"
                       fontFamily="Radio Canada Big"
@@ -3308,7 +3308,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Woodleigh</title>
                     </text>
                   </a>
-                  <a id="s-PTP">
+                  <a id="PTP">
                     <text
                       id="label_ptp"
                       fontFamily="Radio Canada Big"
@@ -3323,7 +3323,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Potong Pasir</title>
                     </text>
                   </a>
-                  <a id="s-BNK">
+                  <a id="BNK">
                     <text
                       id="label_bnk"
                       fontFamily="Radio Canada Big"
@@ -3338,7 +3338,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Boon Keng</title>
                     </text>
                   </a>
-                  <a id="s-FRP">
+                  <a id="FRP">
                     <text
                       id="label_frp"
                       fontFamily="Radio Canada Big"
@@ -3353,7 +3353,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Farrer Park</title>
                     </text>
                   </a>
-                  <a id="s-SIM">
+                  <a id="SIM">
                     <text
                       id="label_sim"
                       fontFamily="Radio Canada Big"
@@ -3368,7 +3368,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Simei</title>
                     </text>
                   </a>
-                  <a id="s-BDK">
+                  <a id="BDK">
                     <text
                       id="label_bdk"
                       fontFamily="Radio Canada Big"
@@ -3383,7 +3383,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bedok</title>
                     </text>
                   </a>
-                  <a id="s-EUN">
+                  <a id="EUN">
                     <text
                       id="label_eun"
                       fontFamily="Radio Canada Big"
@@ -3398,7 +3398,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Eunos</title>
                     </text>
                   </a>
-                  <a id="s-ALJ">
+                  <a id="ALJ">
                     <text
                       id="label_alj"
                       fontFamily="Radio Canada Big"
@@ -3413,7 +3413,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Aljunied</title>
                     </text>
                   </a>
-                  <a id="s-KAL">
+                  <a id="KAL">
                     <text
                       id="label_kal"
                       fontFamily="Radio Canada Big"
@@ -3428,7 +3428,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Kallang</title>
                     </text>
                   </a>
-                  <a id="s-LVR">
+                  <a id="LVR">
                     <text
                       id="label_lvr"
                       fontFamily="Radio Canada Big"
@@ -3443,7 +3443,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Lavender</title>
                     </text>
                   </a>
-                  <a id="s-KEM">
+                  <a id="KEM">
                     <text
                       id="label_kem"
                       fontFamily="Radio Canada Big"
@@ -3458,7 +3458,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Kembangan</title>
                     </text>
                   </a>
-                  <a id="s-TNM">
+                  <a id="TNM">
                     <text
                       id="label_tnm"
                       fontFamily="Radio Canada Big"
@@ -3473,7 +3473,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tanah Merah</title>
                     </text>
                   </a>
-                  <a id="s-NOV">
+                  <a id="NOV">
                     <text
                       id="label_nov"
                       fontFamily="Radio Canada Big"
@@ -3488,7 +3488,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Novena</title>
                     </text>
                   </a>
-                  <a id="s-NEW">
+                  <a id="NEW">
                     <text
                       id="label_new"
                       fontFamily="Radio Canada Big"
@@ -3503,7 +3503,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Newton</title>
                     </text>
                   </a>
-                  <a id="s-ORC">
+                  <a id="ORC">
                     <text
                       id="label_orc"
                       fontFamily="Radio Canada Big"
@@ -3518,7 +3518,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Orchard</title>
                     </text>
                   </a>
-                  <a id="s-GRW">
+                  <a id="GRW">
                     <text
                       id="label_grw"
                       fontFamily="Radio Canada Big"
@@ -3533,7 +3533,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Great World</title>
                     </text>
                   </a>
-                  <a id="s-HVL">
+                  <a id="HVL">
                     <text
                       id="label_hvl"
                       fontFamily="Radio Canada Big"
@@ -3548,7 +3548,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Havelock</title>
                     </text>
                   </a>
-                  <a id="s-MAX">
+                  <a id="MAX">
                     <text
                       id="label_max"
                       fontFamily="Radio Canada Big"
@@ -3563,7 +3563,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Maxwell</title>
                     </text>
                   </a>
-                  <a id="s-SHW">
+                  <a id="SHW">
                     <text
                       id="label_shw"
                       fontFamily="Radio Canada Big"
@@ -3578,7 +3578,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Shenton Way</title>
                     </text>
                   </a>
-                  <a id="s-SOM">
+                  <a id="SOM">
                     <text
                       id="label_som"
                       fontFamily="Radio Canada Big"
@@ -3593,7 +3593,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Somerset</title>
                     </text>
                   </a>
-                  <a id="s-CTH">
+                  <a id="CTH">
                     <text
                       id="label_cth"
                       fontFamily="Radio Canada Big"
@@ -3611,7 +3611,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>City Hall</title>
                     </text>
                   </a>
-                  <a id="s-TPG">
+                  <a id="TPG">
                     <text
                       id="label_tpg"
                       fontFamily="Radio Canada Big"
@@ -3629,7 +3629,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tanjong Pagar</title>
                     </text>
                   </a>
-                  <a id="s-RFP">
+                  <a id="RFP">
                     <text
                       id="label_rfp"
                       fontFamily="Radio Canada Big"
@@ -3647,7 +3647,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Raffles Place</title>
                     </text>
                   </a>
-                  <a id="s-MRB">
+                  <a id="MRB">
                     <text
                       id="label_mrb"
                       fontFamily="Radio Canada Big"
@@ -3662,7 +3662,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Marina Bay</title>
                     </text>
                   </a>
-                  <a id="s-GRB">
+                  <a id="GRB">
                     <text
                       id="label_grb"
                       fontFamily="Radio Canada Big"
@@ -3677,7 +3677,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Gardens by the Bay</title>
                     </text>
                   </a>
-                  <a id="s-TRH">
+                  <a id="TRH">
                     <text
                       id="label_trh"
                       fontFamily="Radio Canada Big"
@@ -3692,7 +3692,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tanjong Rhu</title>
                     </text>
                   </a>
-                  <a id="s-KTP">
+                  <a id="KTP">
                     <text
                       id="label_ktp"
                       fontFamily="Radio Canada Big"
@@ -3707,7 +3707,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Katong Park</title>
                     </text>
                   </a>
-                  <a id="s-TKT">
+                  <a id="TKT">
                     <text
                       id="label_tkt"
                       fontFamily="Radio Canada Big"
@@ -3722,7 +3722,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tanjong Katong</title>
                     </text>
                   </a>
-                  <a id="s-MPR">
+                  <a id="MPR">
                     <text
                       id="label_mpr"
                       fontFamily="Radio Canada Big"
@@ -3737,7 +3737,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Marine Parade</title>
                     </text>
                   </a>
-                  <a id="s-MTC">
+                  <a id="MTC">
                     <text
                       id="label_mtc"
                       fontFamily="Radio Canada Big"
@@ -3752,7 +3752,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Marine Terrace</title>
                     </text>
                   </a>
-                  <a id="s-SGL">
+                  <a id="SGL">
                     <text
                       id="label_sgl"
                       fontFamily="Radio Canada Big"
@@ -3767,7 +3767,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Siglap</title>
                     </text>
                   </a>
-                  <a id="s-BSR">
+                  <a id="BSR">
                     <text
                       id="label_bsr"
                       fontFamily="Radio Canada Big"
@@ -3782,7 +3782,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bayshore</title>
                     </text>
                   </a>
-                  <a id="s-BDS">
+                  <a id="BDS">
                     <text
                       id="label_bds"
                       fontFamily="Radio Canada Big"
@@ -3797,7 +3797,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bedok South</title>
                     </text>
                   </a>
-                  <a id="s-MSP">
+                  <a id="MSP">
                     <text
                       id="label_msp"
                       fontFamily="Radio Canada Big"
@@ -3812,7 +3812,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Marina South Pier</title>
                     </text>
                   </a>
-                  <a id="s-HBF">
+                  <a id="HBF">
                     <text
                       id="label_hbf"
                       fontFamily="Radio Canada Big"
@@ -3827,7 +3827,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>HarbourFront</title>
                     </text>
                   </a>
-                  <a id="s-TLB">
+                  <a id="TLB">
                     <text
                       id="label_tlb"
                       fontFamily="Radio Canada Big"
@@ -3842,7 +3842,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Telok Blangah</title>
                     </text>
                   </a>
-                  <a id="s-LBD">
+                  <a id="LBD">
                     <text
                       id="label_lbd"
                       fontFamily="Radio Canada Big"
@@ -3857,7 +3857,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Labrador Park</title>
                     </text>
                   </a>
-                  <a id="s-PPJ">
+                  <a id="PPJ">
                     <text
                       id="label_ppj"
                       fontFamily="Radio Canada Big"
@@ -3872,7 +3872,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Pasir Panjang</title>
                     </text>
                   </a>
-                  <a id="s-HPV">
+                  <a id="HPV">
                     <text
                       id="label_hpv"
                       fontFamily="Radio Canada Big"
@@ -3887,7 +3887,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Haw Par Villa</title>
                     </text>
                   </a>
-                  <a id="s-KRG">
+                  <a id="KRG">
                     <text
                       id="label_krg"
                       fontFamily="Radio Canada Big"
@@ -3902,7 +3902,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Kent Ridge</title>
                     </text>
                   </a>
-                  <a id="s-ONH">
+                  <a id="ONH">
                     <text
                       id="label_onh"
                       fontFamily="Radio Canada Big"
@@ -3917,7 +3917,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>one-north</title>
                     </text>
                   </a>
-                  <a id="s-BNV">
+                  <a id="BNV">
                     <text
                       id="label_bnv"
                       fontFamily="Radio Canada Big"
@@ -3932,7 +3932,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Buona Vista</title>
                     </text>
                   </a>
-                  <a id="s-DVR">
+                  <a id="DVR">
                     <text
                       id="label_dvr"
                       fontFamily="Radio Canada Big"
@@ -3947,7 +3947,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Dover</title>
                     </text>
                   </a>
-                  <a id="s-CLE">
+                  <a id="CLE">
                     <text
                       id="label_cle"
                       fontFamily="Radio Canada Big"
@@ -3962,7 +3962,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Clementi</title>
                     </text>
                   </a>
-                  <a id="s-LKS">
+                  <a id="LKS">
                     <text
                       id="label_lks"
                       fontFamily="Radio Canada Big"
@@ -3977,7 +3977,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Lakeside</title>
                     </text>
                   </a>
-                  <a id="s-BNL">
+                  <a id="BNL">
                     <text
                       id="label_bnl"
                       fontFamily="Radio Canada Big"
@@ -3992,7 +3992,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Boon Lay</title>
                     </text>
                   </a>
-                  <a id="s-PNR">
+                  <a id="PNR">
                     <text
                       id="label_pnr"
                       fontFamily="Radio Canada Big"
@@ -4007,7 +4007,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Pioneer</title>
                     </text>
                   </a>
-                  <a id="s-JKN">
+                  <a id="JKN">
                     <text
                       id="label_jkn"
                       fontFamily="Radio Canada Big"
@@ -4022,7 +4022,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Joo Koon</title>
                     </text>
                   </a>
-                  <a id="s-GCL">
+                  <a id="GCL">
                     <text
                       id="label_gcl"
                       fontFamily="Radio Canada Big"
@@ -4037,7 +4037,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Gul Circle</title>
                     </text>
                   </a>
-                  <a id="s-TCR">
+                  <a id="TCR">
                     <text
                       id="label_tcr"
                       fontFamily="Radio Canada Big"
@@ -4052,7 +4052,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tuas Crescent</title>
                     </text>
                   </a>
-                  <a id="s-TWR">
+                  <a id="TWR">
                     <text
                       id="label_twr"
                       fontFamily="Radio Canada Big"
@@ -4067,7 +4067,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tuas West Road</title>
                     </text>
                   </a>
-                  <a id="s-TLK">
+                  <a id="TLK">
                     <text
                       id="label_tlk"
                       fontFamily="Radio Canada Big"
@@ -4082,7 +4082,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tuas Link</title>
                     </text>
                   </a>
-                  <a id="s-HLV">
+                  <a id="HLV">
                     <text
                       id="label_hlv"
                       fontFamily="Radio Canada Big"
@@ -4097,7 +4097,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Holland Village</title>
                     </text>
                   </a>
-                  <a id="s-FRR">
+                  <a id="FRR">
                     <text
                       id="label_frr"
                       fontFamily="Radio Canada Big"
@@ -4112,7 +4112,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Farrer Road</title>
                     </text>
                   </a>
-                  <a id="s-CDT">
+                  <a id="CDT">
                     <text
                       id="label_cdt"
                       fontFamily="Radio Canada Big"
@@ -4127,7 +4127,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Caldecott</title>
                     </text>
                   </a>
-                  <a id="s-MRM">
+                  <a id="MRM">
                     <text
                       id="label_mrm"
                       fontFamily="Radio Canada Big"
@@ -4142,7 +4142,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Marymount</title>
                     </text>
                   </a>
-                  <a id="s-BTN">
+                  <a id="BTN">
                     <text
                       id="label_btn"
                       fontFamily="Radio Canada Big"
@@ -4160,7 +4160,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Botanic Gardens</title>
                     </text>
                   </a>
-                  <a id="s-STV">
+                  <a id="STV">
                     <text
                       id="label_stv"
                       fontFamily="Radio Canada Big"
@@ -4175,7 +4175,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Stevens</title>
                     </text>
                   </a>
-                  <a id="s-LTI">
+                  <a id="LTI">
                     <text
                       id="label_lti"
                       fontFamily="Radio Canada Big"
@@ -4193,7 +4193,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Little India</title>
                     </text>
                   </a>
-                  <a id="s-RCR">
+                  <a id="RCR">
                     <text
                       id="label_rcr"
                       fontFamily="Radio Canada Big"
@@ -4208,7 +4208,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Rochor</title>
                     </text>
                   </a>
-                  <a id="s-BDM">
+                  <a id="BDM">
                     <text
                       id="label_bdm"
                       fontFamily="Radio Canada Big"
@@ -4223,7 +4223,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bendemeer</title>
                     </text>
                   </a>
-                  <a id="s-GLB">
+                  <a id="GLB">
                     <text
                       id="label_glb"
                       fontFamily="Radio Canada Big"
@@ -4238,7 +4238,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Geylang Bahru</title>
                     </text>
                   </a>
-                  <a id="s-MTR">
+                  <a id="MTR">
                     <text
                       id="label_mtr"
                       fontFamily="Radio Canada Big"
@@ -4253,7 +4253,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Mattar</title>
                     </text>
                   </a>
-                  <a id="s-JLB">
+                  <a id="JLB">
                     <text
                       id="label_jlb"
                       fontFamily="Radio Canada Big"
@@ -4268,7 +4268,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Jalan Besar</title>
                     </text>
                   </a>
-                  <a id="s-BGS">
+                  <a id="BGS">
                     <text
                       id="label_bgs"
                       fontFamily="Radio Canada Big"
@@ -4283,7 +4283,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bugis</title>
                     </text>
                   </a>
-                  <a id="s-DTN">
+                  <a id="DTN">
                     <text
                       id="label_dtn"
                       fontFamily="Radio Canada Big"
@@ -4298,7 +4298,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Downtown</title>
                     </text>
                   </a>
-                  <a id="s-TLA">
+                  <a id="TLA">
                     <text
                       id="label_tla"
                       fontFamily="Radio Canada Big"
@@ -4316,7 +4316,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Telok Ayer</title>
                     </text>
                   </a>
-                  <a id="s-CTN">
+                  <a id="CTN">
                     <text
                       id="label_ctn"
                       fontFamily="Radio Canada Big"
@@ -4331,7 +4331,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Chinatown</title>
                     </text>
                   </a>
-                  <a id="s-OTP">
+                  <a id="OTP">
                     <text
                       id="label_otp"
                       fontFamily="Radio Canada Big"
@@ -4346,7 +4346,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Outram Park</title>
                     </text>
                   </a>
-                  <a id="s-TIB">
+                  <a id="TIB">
                     <text
                       id="label_tib"
                       fontFamily="Radio Canada Big"
@@ -4361,7 +4361,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Tiong Bahru</title>
                     </text>
                   </a>
-                  <a id="s-RDH">
+                  <a id="RDH">
                     <text
                       id="label_rdh"
                       fontFamily="Radio Canada Big"
@@ -4376,7 +4376,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Redhill</title>
                     </text>
                   </a>
-                  <a id="s-QUE">
+                  <a id="QUE">
                     <text
                       id="label_que"
                       fontFamily="Radio Canada Big"
@@ -4391,7 +4391,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Queenstown</title>
                     </text>
                   </a>
-                  <a id="s-COM">
+                  <a id="COM">
                     <text
                       id="label_com"
                       fontFamily="Radio Canada Big"
@@ -4406,7 +4406,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Commonwealth</title>
                     </text>
                   </a>
-                  <a id="s-FCN">
+                  <a id="FCN">
                     <text
                       id="label_fcn"
                       fontFamily="Radio Canada Big"
@@ -4421,7 +4421,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Fort Canning</title>
                     </text>
                   </a>
-                  <a id="s-BCL">
+                  <a id="BCL">
                     <text
                       id="label_bcl"
                       fontFamily="Radio Canada Big"
@@ -4436,7 +4436,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Bencoolen</title>
                     </text>
                   </a>
-                  <a id="s-DBG">
+                  <a id="DBG">
                     <text
                       id="label_dbg"
                       fontFamily="Radio Canada Big"
@@ -4454,7 +4454,7 @@ export default function Map({ innerRef }: { innerRef: React.RefObject<HTMLDivEle
                       <title>Dhoby Ghaut</title>
                     </text>
                   </a>
-                  <a id="s-CRQ">
+                  <a id="CRQ">
                     <text
                       id="label_crq"
                       fontFamily="Radio Canada Big"

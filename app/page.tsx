@@ -1,31 +1,11 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import MrtMap from "./MrtMapSVG";
+import {MrtMap} from "@/lib/MrtMap/index";
 
 function Main() {
-  const mapRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (mapRef.current) {
-      console.log(mapRef.current);
-      // This finds all <a> tags that are descendants of the ref'd div
-      const links = mapRef.current.querySelectorAll("#labels");
-
-      // Convert NodeList to Array to use map/filter
-      const linksArray = Array.from(links);
-      console.log(linksArray[0]);
-
-      // for(const link in linksArray){
-      //   console.log("Element:", link);          // The full <a> element
-      //   console.log("Text:", link.innerText);   // The text inside
-      //   console.log("Href:", link.href);        // The destination URL
-      // }
-    }
-  });
-
   return (
     <div className="w-full">
-      <MrtMap innerRef={mapRef} />
+      <MrtMap />
     </div>
   );
 }
