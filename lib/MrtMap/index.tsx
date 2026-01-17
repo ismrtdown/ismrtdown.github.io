@@ -2,8 +2,10 @@ import Map from "./Map";
 import { useEffect, useRef, useState } from "react";
 import MrtMapping from "@/public/mrt_mapping.json"
 
+export type STATION_IDS = keyof typeof MrtMapping;
+
 interface Props{
-  stationClickHandler: (name: keyof typeof MrtMapping ) => void;
+  stationClickHandler: (name: STATION_IDS ) => void;
 }
 
 export function MrtMap(props: Props) {

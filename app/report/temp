@@ -1,0 +1,28 @@
+<Dialog open={isReportDialogOpen} onOpenChange={setIsReportDialogOpen}>
+        <DialogContent>
+          {isReporting && selectedStationId && (
+            <DialogHeader>
+              <DialogTitle>
+                <DialogTitle className="text-xl font-bold">
+                  Which station is down?
+                </DialogTitle>
+              </DialogTitle>
+              <DialogDescription>
+                {/* {MrtMapping[selectedStationId].mrtCodes.map((station_code) => (
+                  <span key={station_code}>{station_code}</span>
+                ))} */}
+              </DialogDescription>
+            </DialogHeader>
+          )}
+          {!isReporting && selectedStationId && (
+            <DialogHeader>
+              <DialogTitle>
+                <DialogTitle className="text-xl font-bold">
+                  Breakdown Reported
+                </DialogTitle>
+              </DialogTitle>
+              <DialogDescription>Thanks for reporting!</DialogDescription>
+            </DialogHeader>
+          )}
+        </DialogContent>
+      </Dialog>

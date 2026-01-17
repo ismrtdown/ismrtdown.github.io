@@ -27,6 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+
         <div className="min-h-screen flex flex-col bg-background text-foreground">
           <nav className="border-b px-6 py-4 flex justify-between items-center shadow-sm">
             <div className="font-bold text-xl tracking-tight">ISMRTDOWN</div>
@@ -39,9 +40,10 @@ export default function RootLayout({
               </a>
             </div>
           </nav>
-      <main className="flex-col flex-grow flex items-center justify-center mt-12">
-          {children}
-      </main>
+
+          <main className="flex-col grow flex items-center justify-center mt-12">
+            {children}
+          </main>
           <footer className="w-full border-t py-4 bg-background">
             <div className="container mx-auto grid grid-cols-12 gap-4">
               <div className="col-start-3 col-span-8">
