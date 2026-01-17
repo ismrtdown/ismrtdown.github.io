@@ -5,7 +5,7 @@ import {MrtMap} from "@/lib/MrtMap/index";
 function Main() {
   return (
     <div className="w-full">
-      <MrtMap />
+      <MrtMap stationClickHandler={(_) => {}} />
     </div>
   );
 }
