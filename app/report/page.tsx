@@ -69,6 +69,7 @@ export default function Page() {
   );
   const [isDataLoading, setIsDataLoading] = useState(true);
   const [data, setData] = useState({});
+
   useEffect(() => {
     getData().then((data) => {
       const dataset = {
@@ -92,6 +93,7 @@ export default function Page() {
     setSelectedStationId(station);
     setIsReportDialogOpen(true);
   }
+
   async function reportStationCodeHandler(stationCode: STATION_CODES) {
     setIsReporting(false);
     await fetch(`${BACKEND_URL}/report`, {
