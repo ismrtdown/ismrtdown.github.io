@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +31,16 @@ export default function RootLayout({
       >
         <div className="min-h-screen flex flex-col bg-background text-foreground">
           <nav className="border-b px-6 py-4 flex justify-between items-center shadow-sm">
-            <div className="font-bold text-xl tracking-tight">ISMRTDOWN</div>
+            <Link href="/" className="flex items-center gap-2 group">
+              <Image
+                src="/logo.png" // Path to your image in the public folder
+                alt="Logo"
+                width={40} // Fixed width
+                height={40} // Fixed height
+                className="rounded-md" // Optional: adds slight rounding
+              />
+              <div className="font-bold text-xl tracking-tight">ISMRTDOWN</div>
+            </Link>
             <div className="space-x-4 text-sm font-medium">
               <Link href="/" className="hover:text-primary transition-colors">
                 Home
