@@ -6,22 +6,22 @@ import { useState, useEffect } from 'react';
 ChartJS.register(CategoryScale, LineElement, LinearScale, PointElement, Title, Tooltip, Legend, Filler);
 
 function isoDateToLocalDate(ISOTimeString: string | number | Date, offsetInMinutes: number) {
-    var newTime = new Date(ISOTimeString);
+    const newTime = new Date(ISOTimeString);
     return new Date(newTime.getTime() + (offsetInMinutes * 60000));
 }
 
 // localIsoDate: 2017-05-04T18:25:11.378Z Date object
 function formatTime(localIsoDate: { getUTCHours: () => any; getUTCMinutes: () => any; getUTCSeconds: () => any; }) {
     function z(n: number) { return (n < 10 ? '0' : '') + n }
-    var hh = localIsoDate.getUTCHours();
-    var mm = localIsoDate.getUTCMinutes();
-    var ss = localIsoDate.getUTCSeconds();
+    const hh = localIsoDate.getUTCHours();
+    const mm = localIsoDate.getUTCMinutes();
+    const ss = localIsoDate.getUTCSeconds();
     return z(hh) + ':' + z(mm)
 }
 
 async function getData() {
-    let response = await fetch("https://backend-09gi.onrender.com/reportno")
-    let data = await response.json()
+    const response = await fetch("https://backend-09gi.onrender.com/reportno")
+    const data = await response.json()
     return data
 }
 
@@ -29,13 +29,13 @@ export default function Page() {
     const [data, setData] = useState([])
     useEffect(() => {
         getData().then(setData)
-    })
-    let dataset = {
-        labels: data.map((row: { time: any; }) => formatTime(isoDateToLocalDate(row["time"], 8 * 60))),
+    }, [])
+    const dataset = {
+        labels: data.map((row: { time: string; }) => formatTime(isoDateToLocalDate(row["time"], 8 * 60))),
         datasets: [
             {
                 label: "No. of Reports",
-                data: data.map((row: { [x: string]: any; }) => row["no"]),
+                data: data.map((row: { [x: string]: string; }) => row["no"]),
                 borderColor: 'rgb(255, 99, 132)',
                 backgroundColor: 'rgba(255, 99, 132, 0.5)',
             }
@@ -56,7 +56,7 @@ export default function Page() {
         },
     };
 
-    let sad = (
+    const sad = (
         <>
             <div className="mx-2 my-2 text-center">
                 <h1 className="text-2xl md:text-6xl my-2 font-extrabold tracking-tighter">
