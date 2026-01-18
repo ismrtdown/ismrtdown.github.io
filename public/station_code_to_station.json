@@ -1,0 +1,1122 @@
+{
+    "EW18": {
+        "id": "RDH",
+        "name": "Redhill"
+    },
+    "DT13": {
+        "id": "RCR",
+        "name": "Rochor"
+    },
+    "JW5": {
+        "id": "PKH",
+        "name": "Peng Kang Hill"
+    },
+    "BP9": {
+        "id": "BKT",
+        "name": "Bangkit"
+    },
+    "CC30": {
+        "id": "KPL",
+        "name": "Keppel"
+    },
+    "EW15": {
+        "id": "TPG",
+        "name": "Tanjong Pagar"
+    },
+    "PW7": {
+        "id": "STK",
+        "name": "Soo Teck"
+    },
+    "CC13": {
+        "id": "SER",
+        "name": "Serangoon"
+    },
+    "NE12": {
+        "id": "SER",
+        "name": "Serangoon"
+    },
+    "BP7": {
+        "id": "PTR",
+        "name": "Petir"
+    },
+    "EW11": {
+        "id": "LVR",
+        "name": "Lavender"
+    },
+    "NS22": {
+        "id": "ORC",
+        "name": "Orchard"
+    },
+    "TE14": {
+        "id": "ORC",
+        "name": "Orchard"
+    },
+    "PE2": {
+        "id": "MRD",
+        "name": "Meridian"
+    },
+    "CC17": {
+        "id": "CDT",
+        "name": "Caldecott"
+    },
+    "TE9": {
+        "id": "CDT",
+        "name": "Caldecott"
+    },
+    "JW3": {
+        "id": "NYG",
+        "name": "Nanyang Gateway"
+    },
+    "NS14": {
+        "id": "KTB",
+        "name": "Khatib"
+    },
+    "SW7": {
+        "id": "TKG",
+        "name": "Tongkang"
+    },
+    "CC31": {
+        "id": "CTM",
+        "name": "Cantonment"
+    },
+    "JE4": {
+        "id": "TGN",
+        "name": "Toh Guan"
+    },
+    "DT22": {
+        "id": "JLB",
+        "name": "Jalan Besar"
+    },
+    "EW27": {
+        "id": "BNL",
+        "name": "Boon Lay"
+    },
+    "JS8": {
+        "id": "BNL",
+        "name": "Boon Lay"
+    },
+    "BP4": {
+        "id": "TKW",
+        "name": "Teck Whye"
+    },
+    "SE5": {
+        "id": "RNG",
+        "name": "Ranggung"
+    },
+    "TE5": {
+        "id": "LTR",
+        "name": "Lentor"
+    },
+    "BP10": {
+        "id": "FJR",
+        "name": "Fajar"
+    },
+    "TE18": {
+        "id": "MAX",
+        "name": "Maxwell"
+    },
+    "TE3": {
+        "id": "WDS",
+        "name": "Woodlands South"
+    },
+    "DT33": {
+        "id": "TPE",
+        "name": "Tampines East"
+    },
+    "NE1": {
+        "id": "HBF",
+        "name": "HarbourFront"
+    },
+    "CC29": {
+        "id": "HBF",
+        "name": "HarbourFront"
+    },
+    "EW6": {
+        "id": "KEM",
+        "name": "Kembangan"
+    },
+    "CC6": {
+        "id": "SDM",
+        "name": "Stadium"
+    },
+    "NE4": {
+        "id": "CTN",
+        "name": "Chinatown"
+    },
+    "DT19": {
+        "id": "CTN",
+        "name": "Chinatown"
+    },
+    "BP12": {
+        "id": "JLP",
+        "name": "Jelapang"
+    },
+    "JS6": {
+        "id": "JRW",
+        "name": "Jurong West"
+    },
+    "NE18": {
+        "id": "PGC",
+        "name": "Punggol Coast"
+    },
+    "NS5": {
+        "id": "YWT",
+        "name": "Yew Tee"
+    },
+    "PE7": {
+        "id": "DAM",
+        "name": "Damai"
+    },
+    "TE19": {
+        "id": "SHW",
+        "name": "Shenton Way"
+    },
+    "EW31": {
+        "id": "TCR",
+        "name": "Tuas Crescent"
+    },
+    "BP13": {
+        "id": "SNJ",
+        "name": "Senja"
+    },
+    "NS13": {
+        "id": "YIS",
+        "name": "Yishun"
+    },
+    "TE23": {
+        "id": "TRH",
+        "name": "Tanjong Rhu"
+    },
+    "CR6": {
+        "id": "TPN",
+        "name": "Tampines North"
+    },
+    "EW21": {
+        "id": "BNV",
+        "name": "Buona Vista"
+    },
+    "CC22": {
+        "id": "BNV",
+        "name": "Buona Vista"
+    },
+    "DT37": {
+        "id": "SGB",
+        "name": "Sungei Bedok"
+    },
+    "TE31": {
+        "id": "SGB",
+        "name": "Sungei Bedok"
+    },
+    "TE6": {
+        "id": "MFL",
+        "name": "Mayflower"
+    },
+    "DT28": {
+        "id": "KKB",
+        "name": "Kaki Bukit"
+    },
+    "CR16": {
+        "id": "MAJ",
+        "name": "Maju"
+    },
+    "NS18": {
+        "id": "BDL",
+        "name": "Braddell"
+    },
+    "JS11": {
+        "id": "JRH",
+        "name": "Jurong Hill"
+    },
+    "JE7": {
+        "id": "PDR",
+        "name": "Pandan Reservoir"
+    },
+    "NE9": {
+        "id": "BNK",
+        "name": "Boon Keng"
+    },
+    "DT5": {
+        "id": "BTW",
+        "name": "Beauty World"
+    },
+    "CC14": {
+        "id": "LRC",
+        "name": "Lorong Chuan"
+    },
+    "DT8": {
+        "id": "TKK",
+        "name": "Tan Kah Kee"
+    },
+    "EW8": {
+        "id": "PYL",
+        "name": "Paya Lebar"
+    },
+    "CC9": {
+        "id": "PYL",
+        "name": "Paya Lebar"
+    },
+    "TE16": {
+        "id": "HVL",
+        "name": "Havelock"
+    },
+    "NS19": {
+        "id": "TAP",
+        "name": "Toa Payoh"
+    },
+    "BP3": {
+        "id": "KTH",
+        "name": "Keat Hong"
+    },
+    "PE4": {
+        "id": "RIV",
+        "name": "Riviera"
+    },
+    "CP3": {
+        "id": "RIV",
+        "name": "Riviera"
+    },
+    "CC10": {
+        "id": "MPS",
+        "name": "MacPherson"
+    },
+    "DT26": {
+        "id": "MPS",
+        "name": "MacPherson"
+    },
+    "PW2": {
+        "id": "TKL",
+        "name": "Teck Lee"
+    },
+    "DT31": {
+        "id": "TPW",
+        "name": "Tampines West"
+    },
+    "EW26": {
+        "id": "LKS",
+        "name": "Lakeside"
+    },
+    "EW14": {
+        "id": "RFP",
+        "name": "Raffles Place"
+    },
+    "NS26": {
+        "id": "RFP",
+        "name": "Raffles Place"
+    },
+    "EW12": {
+        "id": "BGS",
+        "name": "Bugis"
+    },
+    "DT14": {
+        "id": "BGS",
+        "name": "Bugis"
+    },
+    "BP14": {
+        "id": "TMJ",
+        "name": "Ten Mile Junction"
+    },
+    "CP2": {
+        "id": "PRL",
+        "name": "Elias"
+    },
+    "EW28": {
+        "id": "PNR",
+        "name": "Pioneer"
+    },
+    "CC5": {
+        "id": "NCH",
+        "name": "Nicoll Highway"
+    },
+    "CC7": {
+        "id": "MBT",
+        "name": "Mountbatten"
+    },
+    "NE15": {
+        "id": "BGK",
+        "name": "Buangkok"
+    },
+    "TE8": {
+        "id": "UTS",
+        "name": "Upper Thomson"
+    },
+    "CC23": {
+        "id": "ONH",
+        "name": "one-north"
+    },
+    "JS5": {
+        "id": "CPN",
+        "name": "Corporation"
+    },
+    "CC18": {
+        "id": "BKB",
+        "name": "Bukit Brown"
+    },
+    "CC11": {
+        "id": "TSG",
+        "name": "Tai Seng"
+    },
+    "BP2": {
+        "id": "SHV",
+        "name": "South View"
+    },
+    "CC27": {
+        "id": "LBD",
+        "name": "Labrador Park"
+    },
+    "CC32": {
+        "id": "PER",
+        "name": "Prince Edward Road"
+    },
+    "DT7": {
+        "id": "SAV",
+        "name": "Sixth Avenue"
+    },
+    "CC24": {
+        "id": "KRG",
+        "name": "Kent Ridge"
+    },
+    "JS9": {
+        "id": "ETP",
+        "name": "Enterprise"
+    },
+    "SW8": {
+        "id": "RNJ",
+        "name": "Renjong"
+    },
+    "EW32": {
+        "id": "TWR",
+        "name": "Tuas West Road"
+    },
+    "JE2": {
+        "id": "TGK",
+        "name": "Tengah Park"
+    },
+    "CC28": {
+        "id": "TLB",
+        "name": "Telok Blangah"
+    },
+    "CR10": {
+        "id": "TVK",
+        "name": "Tavistock"
+    },
+    "DT3": {
+        "id": "HVW",
+        "name": "Hillview"
+    },
+    "CC4": {
+        "id": "PMN",
+        "name": "Promenade"
+    },
+    "DT15": {
+        "id": "PMN",
+        "name": "Promenade"
+    },
+    "EW23": {
+        "id": "CLE",
+        "name": "Clementi"
+    },
+    "CR17": {
+        "id": "CLE",
+        "name": "Clementi"
+    },
+    "CC16": {
+        "id": "MRM",
+        "name": "Marymount"
+    },
+    "CR7": {
+        "id": "DFU",
+        "name": "Defu"
+    },
+    "SE4": {
+        "id": "KGK",
+        "name": "Kangkar"
+    },
+    "NS11": {
+        "id": "SBW",
+        "name": "Sembawang"
+    },
+    "JE3": {
+        "id": "BBW",
+        "name": "Bukit Batok West"
+    },
+    "SW3": {
+        "id": "KPG",
+        "name": "Kupang"
+    },
+    "PW4": {
+        "id": "SMD",
+        "name": "Samudera"
+    },
+    "NE16": {
+        "id": "SKG",
+        "name": "Sengkang"
+    },
+    "STC": {
+        "id": "SKG",
+        "name": "Sengkang"
+    },
+    "TE21": {
+        "id": "MRS",
+        "name": "Marina South"
+    },
+    "PE6": {
+        "id": "OAS",
+        "name": "Oasis"
+    },
+    "PW5": {
+        "id": "NBG",
+        "name": "Nibong"
+    },
+    "CC20": {
+        "id": "FRR",
+        "name": "Farrer Road"
+    },
+    "JE6": {
+        "id": "JTH",
+        "name": "Jurong Town Hall"
+    },
+    "NE7": {
+        "id": "LTI",
+        "name": "Little India"
+    },
+    "DT12": {
+        "id": "LTI",
+        "name": "Little India"
+    },
+    "TE15": {
+        "id": "GRW",
+        "name": "Great World"
+    },
+    "CC25": {
+        "id": "HPV",
+        "name": "Haw Par Villa"
+    },
+    "CR2": {
+        "id": "AVP",
+        "name": "Aviation Park"
+    },
+    "BP8": {
+        "id": "PND",
+        "name": "Pending"
+    },
+    "TE7": {
+        "id": "BRH",
+        "name": "Bright Hill"
+    },
+    "CR13": {
+        "id": "BRH",
+        "name": "Bright Hill"
+    },
+    "DT18": {
+        "id": "TLA",
+        "name": "Telok Ayer"
+    },
+    "NS10": {
+        "id": "ADM",
+        "name": "Admiralty"
+    },
+    "SW1": {
+        "id": "CGL",
+        "name": "Cheng Lim"
+    },
+    "JW2": {
+        "id": "TWS",
+        "name": "Tawas"
+    },
+    "NE8": {
+        "id": "FRP",
+        "name": "Farrer Park"
+    },
+    "PW1": {
+        "id": "SMK",
+        "name": "Sam Kee"
+    },
+    "CR9": {
+        "id": "SRN",
+        "name": "Serangoon North"
+    },
+    "CC2": {
+        "id": "BBS",
+        "name": "Bras Basah"
+    },
+    "TE4": {
+        "id": "SPL",
+        "name": "Springleaf"
+    },
+    "DT34": {
+        "id": "UPC",
+        "name": "Upper Changi"
+    },
+    "DT10": {
+        "id": "STV",
+        "name": "Stevens"
+    },
+    "TE11": {
+        "id": "STV",
+        "name": "Stevens"
+    },
+    "EW1": {
+        "id": "PSR",
+        "name": "Pasir Ris"
+    },
+    "CR5": {
+        "id": "PSR",
+        "name": "Pasir Ris"
+    },
+    "CC8": {
+        "id": "DKT",
+        "name": "Dakota"
+    },
+    "TE26": {
+        "id": "MPR",
+        "name": "Marine Parade"
+    },
+    "PW6": {
+        "id": "SMG",
+        "name": "Sumang"
+    },
+    "TE13": {
+        "id": "OBV",
+        "name": "Orchard Boulevard"
+    },
+    "BP11": {
+        "id": "SGR",
+        "name": "Segar"
+    },
+    "DT2": {
+        "id": "CSW",
+        "name": "Cashew"
+    },
+    "SE3": {
+        "id": "BAK",
+        "name": "Bakau"
+    },
+    "NS9": {
+        "id": "WDL",
+        "name": "Woodlands"
+    },
+    "TE2": {
+        "id": "WDL",
+        "name": "Woodlands"
+    },
+    "EW29": {
+        "id": "JKN",
+        "name": "Joo Koon"
+    },
+    "NS6": {
+        "id": "SGK",
+        "name": "Sungei Kadut"
+    },
+    "DE2": {
+        "id": "SGK",
+        "name": "Sungei Kadut"
+    },
+    "NE10": {
+        "id": "PTP",
+        "name": "Potong Pasir"
+    },
+    "JS7": {
+        "id": "BHJ",
+        "name": "Bahar Junction"
+    },
+    "NE13": {
+        "id": "KVN",
+        "name": "Kovan"
+    },
+    "CG1": {
+        "id": "XPO",
+        "name": "Expo"
+    },
+    "DT35": {
+        "id": "XPO",
+        "name": "Expo"
+    },
+    "TE34": {
+        "id": "XPO",
+        "name": "Expo"
+    },
+    "CR1": {
+        "id": "CGB",
+        "name": "Changi Airport Terminal 5"
+    },
+    "TE32": {
+        "id": "CGB",
+        "name": "Changi Airport Terminal 5"
+    },
+    "EW22": {
+        "id": "DVR",
+        "name": "Dover"
+    },
+    "NE11": {
+        "id": "WLH",
+        "name": "Woodleigh"
+    },
+    "CR4": {
+        "id": "PRE",
+        "name": "Pasir Ris East"
+    },
+    "EW7": {
+        "id": "EUN",
+        "name": "Eunos"
+    },
+    "NS15": {
+        "id": "YCK",
+        "name": "Yio Chu Kang"
+    },
+    "NS23": {
+        "id": "SOM",
+        "name": "Somerset"
+    },
+    "CC19": {
+        "id": "BTN",
+        "name": "Botanic Gardens"
+    },
+    "DT9": {
+        "id": "BTN",
+        "name": "Botanic Gardens"
+    },
+    "NS12": {
+        "id": "CBR",
+        "name": "Canberra"
+    },
+    "CR14": {
+        "id": "TFC",
+        "name": "Turf City"
+    },
+    "EW4": {
+        "id": "TNM",
+        "name": "Tanah Merah"
+    },
+    "TE35": {
+        "id": "TNM",
+        "name": "Tanah Merah"
+    },
+    "JW1": {
+        "id": "GKP",
+        "name": "Gek Poh"
+    },
+    "CC3": {
+        "id": "EPN",
+        "name": "Esplanade"
+    },
+    "DT21": {
+        "id": "BCL",
+        "name": "Bencoolen"
+    },
+    "EW16": {
+        "id": "OTP",
+        "name": "Outram Park"
+    },
+    "NE3": {
+        "id": "OTP",
+        "name": "Outram Park"
+    },
+    "TE17": {
+        "id": "OTP",
+        "name": "Outram Park"
+    },
+    "CG2": {
+        "id": "CGA",
+        "name": "Changi Airport"
+    },
+    "TE33": {
+        "id": "CGA",
+        "name": "Changi Airport"
+    },
+    "NS7": {
+        "id": "KRJ",
+        "name": "Kranji"
+    },
+    "CR18": {
+        "id": "WSC",
+        "name": "West Coast"
+    },
+    "PE1": {
+        "id": "COV",
+        "name": "Cove"
+    },
+    "DT27": {
+        "id": "UBI",
+        "name": "Ubi"
+    },
+    "EW24": {
+        "id": "JUR",
+        "name": "Jurong East"
+    },
+    "NS1": {
+        "id": "JUR",
+        "name": "Jurong East"
+    },
+    "JE5": {
+        "id": "JUR",
+        "name": "Jurong East"
+    },
+    "JS4": {
+        "id": "HGK",
+        "name": "Hong Kah"
+    },
+    "EW30": {
+        "id": "GCL",
+        "name": "Gul Circle"
+    },
+    "TE30": {
+        "id": "BDS",
+        "name": "Bedok South"
+    },
+    "TE22A": {
+        "id": "FDM",
+        "name": "Founders' Memorial"
+    },
+    "SE1": {
+        "id": "CPV",
+        "name": "Compassvale"
+    },
+    "SW2": {
+        "id": "FMW",
+        "name": "Farmway"
+    },
+    "DT29": {
+        "id": "BDN",
+        "name": "Bedok North"
+    },
+    "SW4": {
+        "id": "TNG",
+        "name": "Thanggam"
+    },
+    "EW13": {
+        "id": "CTH",
+        "name": "City Hall"
+    },
+    "NS25": {
+        "id": "CTH",
+        "name": "City Hall"
+    },
+    "JS2": {
+        "id": "CKW",
+        "name": "Choa Chu Kang West"
+    },
+    "JS3": {
+        "id": "TGH",
+        "name": "Tengah"
+    },
+    "TE10": {
+        "id": "MPL",
+        "name": "Mount Pleasant"
+    },
+    "BP5": {
+        "id": "PNX",
+        "name": "Phoenix"
+    },
+    "CR19": {
+        "id": "JLD",
+        "name": "Jurong Lake District"
+    },
+    "PE3": {
+        "id": "CRE",
+        "name": "Coral Edge"
+    },
+    "DT36": {
+        "id": "XLN",
+        "name": "Xilin"
+    },
+    "NE5": {
+        "id": "CRQ",
+        "name": "Clarke Quay"
+    },
+    "SW5": {
+        "id": "FNV",
+        "name": "Fernvale"
+    },
+    "NS3": {
+        "id": "BGB",
+        "name": "Bukit Gombak"
+    },
+    "TE12": {
+        "id": "NPR",
+        "name": "Napier"
+    },
+    "CR3": {
+        "id": "LYG",
+        "name": "Loyang"
+    },
+    "TE24": {
+        "id": "KTP",
+        "name": "Katong Park"
+    },
+    "NS2": {
+        "id": "BBT",
+        "name": "Bukit Batok"
+    },
+    "DT1": {
+        "id": "BKP",
+        "name": "Bukit Panjang"
+    },
+    "BP6": {
+        "id": "BKP",
+        "name": "Bukit Panjang"
+    },
+    "DT4": {
+        "id": "HME",
+        "name": "Hume"
+    },
+    "NS27": {
+        "id": "MRB",
+        "name": "Marina Bay"
+    },
+    "TE20": {
+        "id": "MRB",
+        "name": "Marina Bay"
+    },
+    "CE2": {
+        "id": "MRB",
+        "name": "Marina Bay"
+    },
+    "EW19": {
+        "id": "QUE",
+        "name": "Queenstown"
+    },
+    "PE5": {
+        "id": "KDL",
+        "name": "Kadaloor"
+    },
+    "TE27": {
+        "id": "MTC",
+        "name": "Marine Terrace"
+    },
+    "TE28": {
+        "id": "SGL",
+        "name": "Siglap"
+    },
+    "TE25": {
+        "id": "TKT",
+        "name": "Tanjong Katong"
+    },
+    "EW5": {
+        "id": "BDK",
+        "name": "Bedok"
+    },
+    "NS3A": {
+        "id": "BRK",
+        "name": "Brickland"
+    },
+    "CE1": {
+        "id": "BFT",
+        "name": "Bayfront"
+    },
+    "DT16": {
+        "id": "BFT",
+        "name": "Bayfront"
+    },
+    "TE29": {
+        "id": "BSR",
+        "name": "Bayshore"
+    },
+    "JS12": {
+        "id": "JRP",
+        "name": "Jurong Pier"
+    },
+    "CR21": {
+        "id": "JRP",
+        "name": "Jurong Pier"
+    },
+    "EW2": {
+        "id": "TAM",
+        "name": "Tampines"
+    },
+    "DT32": {
+        "id": "TAM",
+        "name": "Tampines"
+    },
+    "DT17": {
+        "id": "DTN",
+        "name": "Downtown"
+    },
+    "DT30": {
+        "id": "BDR",
+        "name": "Bedok Reservoir"
+    },
+    "EW10": {
+        "id": "KAL",
+        "name": "Kallang"
+    },
+    "EW3": {
+        "id": "SIM",
+        "name": "Simei"
+    },
+    "NS21": {
+        "id": "NEW",
+        "name": "Newton"
+    },
+    "DT11": {
+        "id": "NEW",
+        "name": "Newton"
+    },
+    "CC26": {
+        "id": "PPJ",
+        "name": "Pasir Panjang"
+    },
+    "NS20": {
+        "id": "NOV",
+        "name": "Novena"
+    },
+    "NS8": {
+        "id": "MSL",
+        "name": "Marsiling"
+    },
+    "CC21": {
+        "id": "HLV",
+        "name": "Holland Village"
+    },
+    "TE1": {
+        "id": "WDN",
+        "name": "Woodlands North"
+    },
+    "NE14": {
+        "id": "HGN",
+        "name": "Hougang"
+    },
+    "CR8": {
+        "id": "HGN",
+        "name": "Hougang"
+    },
+    "SW6": {
+        "id": "LYR",
+        "name": "Layar"
+    },
+    "NS17": {
+        "id": "BSH",
+        "name": "Bishan"
+    },
+    "CC15": {
+        "id": "BSH",
+        "name": "Bishan"
+    },
+    "NS4": {
+        "id": "CCK",
+        "name": "Choa Chu Kang"
+    },
+    "BP1": {
+        "id": "CCK",
+        "name": "Choa Chu Kang"
+    },
+    "JS1": {
+        "id": "CCK",
+        "name": "Choa Chu Kang"
+    },
+    "NS16": {
+        "id": "AMK",
+        "name": "Ang Mo Kio"
+    },
+    "CR11": {
+        "id": "AMK",
+        "name": "Ang Mo Kio"
+    },
+    "EW20": {
+        "id": "COM",
+        "name": "Commonwealth"
+    },
+    "EW17": {
+        "id": "TIB",
+        "name": "Tiong Bahru"
+    },
+    "EW33": {
+        "id": "TLK",
+        "name": "Tuas Link"
+    },
+    "CC12": {
+        "id": "BLY",
+        "name": "Bartley"
+    },
+    "SE2": {
+        "id": "RMB",
+        "name": "Rumbia"
+    },
+    "NS24": {
+        "id": "DBG",
+        "name": "Dhoby Ghaut"
+    },
+    "NE6": {
+        "id": "DBG",
+        "name": "Dhoby Ghaut"
+    },
+    "CC1": {
+        "id": "DBG",
+        "name": "Dhoby Ghaut"
+    },
+    "JW4": {
+        "id": "NYC",
+        "name": "Nanyang Crescent"
+    },
+    "DE1": {
+        "id": "DE1",
+        "name": "DE1"
+    },
+    "JS10": {
+        "id": "TKN",
+        "name": "Tukang"
+    },
+    "DT25": {
+        "id": "MTR",
+        "name": "Mattar"
+    },
+    "PW3": {
+        "id": "PGP",
+        "name": "Punggol Point"
+    },
+    "CR12": {
+        "id": "TGE",
+        "name": "Teck Ghee"
+    },
+    "DT20": {
+        "id": "FCN",
+        "name": "Fort Canning"
+    },
+    "DT23": {
+        "id": "BDM",
+        "name": "Bendemeer"
+    },
+    "JE1": {
+        "id": "TGP",
+        "name": "Tengah Plantation"
+    },
+    "EW25": {
+        "id": "CNG",
+        "name": "Chinese Garden"
+    },
+    "EW9": {
+        "id": "ALJ",
+        "name": "Aljunied"
+    },
+    "NE17": {
+        "id": "PGL",
+        "name": "Punggol"
+    },
+    "PTC": {
+        "id": "PGL",
+        "name": "Punggol"
+    },
+    "CP4": {
+        "id": "PGL",
+        "name": "Punggol"
+    },
+    "TE22": {
+        "id": "GRB",
+        "name": "Gardens by the Bay"
+    },
+    "DT6": {
+        "id": "KAP",
+        "name": "King Albert Park"
+    },
+    "CR15": {
+        "id": "KAP",
+        "name": "King Albert Park"
+    },
+    "NS28": {
+        "id": "MSP",
+        "name": "Marina South Pier"
+    },
+    "DT24": {
+        "id": "GLB",
+        "name": "Geylang Bahru"
+    }
+}
