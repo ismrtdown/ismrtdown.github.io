@@ -54,8 +54,9 @@ export default function Page() {
                 text: 'Chart.js Line Chart',
             },
         },
+        maintainAspectRatio: false
     };
-
+    
     let sad = (
         <>
             <div className="mx-2 my-2 text-center">
@@ -66,7 +67,7 @@ export default function Page() {
                     Click on the station that has a disruption to report it.
                 </h2>
             </div>
-            <div className="">
+            <div className="h-100 w-100">
                 <Line className="" data={dataset} options={options} />
             </div>
         </>
