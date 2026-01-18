@@ -72,6 +72,10 @@ export default function RootLayout({
                     </span>
                   </div>
                 </div>
+								<div className="pt-4 text-[8px] md:text-sm text-center text-muted-foreground uppercase">
+									For past (official) data, refer to {" "}
+									<a href="https://www.mrtdown.org/?viewport=2xl" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline hover:text-blue-600" > mrtdown </a>
+								</div>
               </div>
             </div>
           </footer>
