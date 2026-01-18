@@ -123,3 +123,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes svg-ring-pulse {
+  0% {
+    stroke-width: 0;
+    opacity: 0.8;
+  }
+  100% {
+    stroke-width: 15; /* Adjust this for pulse size */
+    opacity: 0;
+  }
+}
+
+.svg-dot-pulse {
+  /* This ensures the stroke grows from the center of the character */
+  /* stroke-alignment: center; */
+  paint-order: stroke;
+  animation: svg-ring-pulse 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
