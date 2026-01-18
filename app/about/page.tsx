@@ -34,6 +34,7 @@ export default function Page() {
                       alt="User Profile"
                     />
                     <div className="font-bold">Psyduck</div>
+                    <p className="text-md font-bold">Algo and Data Structures</p>
                     <div className="text-center mb-2 text-sm">
                       <p>Me: Graduates early</p>
                       <p className="">
@@ -53,7 +54,8 @@ export default function Page() {
                       src="/rock.jpg"
                       alt="User Profile"
                     />
-                    <div className="font-bold">Chuanhao01</div>
+                    <div className="font-bold">L3 Barista</div>
+                    <p className="text-md font-bold">The things you See</p>
                     <div className="text-center mb-2 text-sm">
                       <p>&quot;Extremely unemployed and cooked&quot;</p>
                       <p>&quot;Needs a Job&quot;</p>
@@ -71,6 +73,7 @@ export default function Page() {
                       alt="User Profile"
                     />
                     <div className="font-bold">Wild pokemon</div>
+                    <p className="text-md font-bold">Free Hosting</p>
                     <div className="text-center mb-2 text-sm">
                       "pi? pichu!"
                     </div>
