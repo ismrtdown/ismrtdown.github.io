@@ -41,7 +41,10 @@ export default function RootLayout({
               >
                 Report
               </Link>
-              <Link href="/about" className="hover:text-primary transition-colors">
+              <Link
+                href="/about"
+                className="hover:text-primary transition-colors"
+              >
                 About
               </Link>
             </div>
@@ -71,24 +74,24 @@ export default function RootLayout({
                 {/* Bottom Row: Full 8-column width section */}
                 <div className="pt-4 text-[8px] md:text-sm text-center">
                   <div className="flex justify-between items-center text-muted-foreground tracking-widest uppercase">
-                    <span>© 2026
-                        <a
-                          href="https://github.com/ismrtdown"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-blue-500 hover:text-blue-600"
-                        >
-                          {" "}
-                          ismrtdown
-                        </a>
-
+                    <span>
+                      © 2026
+                      <a
+                        href="https://github.com/ismrtdown"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:text-blue-600"
+                      >
+                        {" "}
+                        ismrtdown
+                      </a>
                     </span>
                     <div>
                       <p>
                         We are not affiliated with any public transport operator
                       </p>
                       <p>
-                        Please also check out (Mrt Map was inspired by them){" "}
+                        Please also check out
                         <a
                           href="https://www.mrtdown.org/?viewport=2xl"
                           target="_blank"
@@ -97,7 +100,8 @@ export default function RootLayout({
                         >
                           {" "}
                           mrtdown
-                        </a>
+                        </a>{" "}
+                        (Mrt Map was inspired by them)
                       </p>
                     </div>
                   </div>
