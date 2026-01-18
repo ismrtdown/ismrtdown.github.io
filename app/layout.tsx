@@ -28,7 +28,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-
         <div className="min-h-screen flex flex-col bg-background text-foreground">
           <nav className="border-b px-6 py-4 flex justify-between items-center shadow-sm">
             <div className="font-bold text-xl tracking-tight">ISMRTDOWN</div>
@@ -36,8 +35,14 @@ export default function RootLayout({
               <Link href="/" className="hover:text-primary transition-colors">
                 Home
               </Link>
-              <Link href="/report" className="hover:text-primary transition-colors">
+              <Link
+                href="/report"
+                className="hover:text-primary transition-colors"
+              >
                 Report
+              </Link>
+              <Link href="/about" className="hover:text-primary transition-colors">
+                About
               </Link>
             </div>
           </nav>
@@ -66,16 +71,37 @@ export default function RootLayout({
                 {/* Bottom Row: Full 8-column width section */}
                 <div className="pt-4 text-[8px] md:text-sm text-center">
                   <div className="flex justify-between items-center text-muted-foreground tracking-widest uppercase">
-                    <span>© 2026 ismrtdown</span>
-                    <span>
-                      We are not affiliated with any public transport operator
+                    <span>© 2026
+                        <a
+                          href="https://github.com/ismrtdown"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-500 hover:text-blue-600"
+                        >
+                          {" "}
+                          ismrtdown
+                        </a>
+
                     </span>
+                    <div>
+                      <p>
+                        We are not affiliated with any public transport operator
+                      </p>
+                      <p>
+                        Please also check out (Mrt Map was inspired by them){" "}
+                        <a
+                          href="https://www.mrtdown.org/?viewport=2xl"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-500 underline hover:text-blue-600"
+                        >
+                          {" "}
+                          mrtdown
+                        </a>
+                      </p>
+                    </div>
                   </div>
                 </div>
-								<div className="pt-4 text-[8px] md:text-sm text-center text-muted-foreground uppercase">
-									For past (official) data, refer to {" "}
-									<a href="https://www.mrtdown.org/?viewport=2xl" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline hover:text-blue-600" > mrtdown </a>
-								</div>
               </div>
             </div>
           </footer>

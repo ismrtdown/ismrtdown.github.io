@@ -1755,7 +1755,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x={411} y="782.9">
+                      <tspan x={401} y="782.9">
                         Yew Tee
                       </tspan>
                       <title>Yew Tee</title>
@@ -2355,7 +2355,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x={436} y="616.9">
+                      <tspan x={416} y="616.9">
                         Kranji
                       </tspan>
                       <title>Kranji</title>
@@ -4087,7 +4087,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="726.373" y="1331.9">
+                      <tspan x="716.373" y="1331.9">
                         Holland Village
                       </tspan>
                       <title>Holland Village</title>
@@ -4102,7 +4102,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="794.031" y="1225.9">
+                      <tspan x="774.031" y="1225.9">
                         Farrer Road
                       </tspan>
                       <title>Farrer Road</title>
