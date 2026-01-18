@@ -2865,7 +2865,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x={2183} y="973.9">
+                      <tspan x={2173} y="973.9">
                         Bedok North
                       </tspan>
                       <title>Bedok North</title>
@@ -3358,7 +3358,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x={2618} y="1008.9">
+                      <tspan x={2608} y="1008.9">
                         Simei
                       </tspan>
                       <title>Simei</title>
@@ -3403,7 +3403,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="1954.34" y="1425.9">
+                      <tspan x="1945.34" y="1425.9">
                         Aljunied
                       </tspan>
                       <title>Aljunied</title>
@@ -3652,7 +3652,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="1550.22" y="2071.9">
+                      <tspan x="1547.22" y="2071.9">
                         Marina Bay
                       </tspan>
                       <title>Marina Bay</title>
@@ -3832,7 +3832,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="965.221" y="1981.9">
+                      <tspan x="955.221" y="1981.9">
                         Telok Blangah
                       </tspan>
                       <title>Telok Blangah</title>
@@ -3847,7 +3847,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="880.377" y="1907.9">
+                      <tspan x="875.377" y="1907.9">
                         Labrador Park
                       </tspan>
                       <title>Labrador Park</title>
@@ -3877,7 +3877,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="786.096" y="1750.9">
+                      <tspan x="770.096" y="1750.9">
                         Haw Par Villa
                       </tspan>
                       <title>Haw Par Villa</title>
@@ -3892,7 +3892,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="768.488" y="1661.9">
+                      <tspan x="764.488" y="1661.9">
                         Kent Ridge
                       </tspan>
                       <title>Kent Ridge</title>
@@ -4228,7 +4228,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="1799.3" y="1336.9">
+                      <tspan x="1790.3" y="1336.9">
                         Geylang Bahru
                       </tspan>
                       <title>Geylang Bahru</title>
@@ -4243,7 +4243,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="1947.02" y="1266.9">
+                      <tspan x="1937.02" y="1266.9">
                         Mattar
                       </tspan>
                       <title>Mattar</title>
@@ -4336,7 +4336,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="1093.31" y="1800.9">
+                      <tspan x="1087.31" y="1800.9">
                         Outram Park
                       </tspan>
                       <title>Outram Park</title>
@@ -4351,7 +4351,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="1030.42" y="1733.9">
+                      <tspan x="1018.42" y="1733.9">
                         Tiong Bahru
                       </tspan>
                       <title>Tiong Bahru</title>
@@ -4366,7 +4366,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="1009.1" y="1664.9">
+                      <tspan x="990.1" y="1664.9">
                         Redhill
                       </tspan>
                       <title>Redhill</title>
@@ -4411,7 +4411,7 @@ export default function Map({ innerRef }: {innerRef: any}) {
                       letterSpacing="0em"
                       className="fill-gray-800 dark:fill-gray-300 hover:underline"
                     >
-                      <tspan x="1236.25" y="1613.9">
+                      <tspan x="1230.25" y="1613.9">
                         Fort Canning
                       </tspan>
                       <title>Fort Canning</title>

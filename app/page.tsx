@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import StationCodeToNameMapping from "@/public/station_code_to_station.json";
 import { STATION_CODES } from "@/lib/StationBar";
-import MrtMapping from "@/public/mrt_mapping.json"
+import MrtMapping from "@/public/mrt_mapping.json";
 
 const COLOR_MAPPING = {
   0: "green",
@@ -35,7 +35,8 @@ export default function Home() {
         StationCodeToNameMapping[from_station_code as STATION_CODES]["name"];
 
       const to_station_code = msg[1];
-      const to_station_name = StationCodeToNameMapping[to_station_code as STATION_CODES]["name"];
+      const to_station_name =
+        StationCodeToNameMapping[to_station_code as STATION_CODES]["name"];
 
       return {
         text: `⚠️ Delays from ${from_station_name} (${from_station_code}) to ${to_station_name} (${to_station_code})`,
@@ -54,8 +55,12 @@ export default function Home() {
         },
       });
       const data = await res.json();
-      //@ts-expect-error its ok
-      const labels = Array.from((rMapRef?.current?.current as unknown as HTMLDivElement).querySelectorAll("#labels"))[0];
+      const labels = Array.from(
+        (
+          //@ts-expect-error its ok
+          rMapRef?.current?.current as unknown as HTMLDivElement
+        ).querySelectorAll("#labels"),
+      )[0];
       // console.log(labels);
 
       labels.querySelectorAll("a").forEach((el) => {
@@ -73,7 +78,14 @@ export default function Home() {
         }, 0);
 
         newTspan.innerHTML = renderToStaticMarkup(
-          <StatusIndicator status={COLOR_MAPPING[status as keyof typeof COLOR_MAPPING] as "green" | "red" | "orange"} />,
+          <StatusIndicator
+            status={
+              COLOR_MAPPING[status as keyof typeof COLOR_MAPPING] as
+                | "green"
+                | "red"
+                | "orange"
+            }
+          />,
         );
         // newTspan.innerHTML = renderToStaticMarkup(<p>testing?</p>)
         // newTspan.textContent = "Test here"
@@ -92,26 +104,33 @@ export default function Home() {
 
   return (
     <>
-      {rangeBanners.length > 0 && (
-        <div className="w-full space-y-2 p-2">
-          {rangeBanners.map((banner, idx) => (
-            <div
-              key={idx}
-              className="flex items-center justify-between rounded-lg bg-yellow-100 border border-yellow-300 px-4 py-2 text-sm"
-            >
-              <span>{banner.text}</span>
-              <button
-                className="ml-4 text-xs font-bold text-gray-600 hover:text-black"
-                onClick={() =>
-                  setRangeBanners((prev) => prev.filter((_, i) => i !== idx))
-                }
-              >
-                ✕
-              </button>
+      <div className="flex w-full justify-center">
+        <div className="w-full md:w-8/12 font-rc-big">
+          {rangeBanners.length > 0 && (
+            <div className="w-full space-y-2 p-2">
+              {rangeBanners.map((banner, idx) => (
+                <div
+                  key={idx}
+                  className="flex items-center justify-between rounded-lg bg-yellow-100 border border-yellow-300 px-4 py-2 text-sm"
+                >
+                  <span>{banner.text}</span>
+                  <button
+                    className="ml-4 text-xs font-bold text-gray-600 hover:text-black"
+                    onClick={() =>
+                      setRangeBanners((prev) =>
+                        prev.filter((_, i) => i !== idx),
+                      )
+                    }
+                  >
+                    ✕
+                  </button>
+                </div>
+              ))}
             </div>
-          ))}
+          )}
         </div>
-      )}
+      </div>
+
       <div className="mx-2 my-2 text-center">
         <h1 className="text-2xl md:text-6xl font-extrabold tracking-tighter my-2">
           Is the MRT down?
