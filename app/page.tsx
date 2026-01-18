@@ -2,6 +2,7 @@
 import { BACKEND_URL } from "@/lib/utils";
 import { MrtMap } from "@/lib/MrtMap/index";
 import { useEffect, useState } from "react";
+import StationCodeToNameMapping from "@/public/station_code_to_station.json";
 
 // const COLOR_MAPPING ={
 //   0: "",
@@ -20,9 +21,17 @@ export default function Home() {
 		const response = await fetch(`${BACKEND_URL}/range-delayed`)
 
 		const data = await response.json();
-		const banners = data.map((msg: any) => ({
-				text: `⚠️ Delays from ${msg[0]} to ${msg[1]}`, 
-			}));
+		const banners = data.map((msg: any) => {
+			const from_station_code = msg[0];
+			const from_station_name = StationCodeToNameMapping[from_station_code]["name"];
+
+			const to_station_code = msg[1];
+			const to_station_name = StationCodeToNameMapping[to_station_code]["name"];
+
+				return {
+					text: `⚠️ Delays from ${from_station_name} (${from_station_code}) to ${to_station_name} (${to_station_code})`, 
+				}
+			});
 
 		setRangeBanners(banners);
 	}
