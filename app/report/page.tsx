@@ -69,6 +69,10 @@ export default function Page() {
   );
   const [isDataLoading, setIsDataLoading] = useState(true);
   const [data, setData] = useState({});
+	const [rangeBanners, setRangeBanners] = useState<
+		{ text: string }[]
+	>([]);
+
   useEffect(() => {
     getData().then((data) => {
       const dataset = {
@@ -87,11 +91,14 @@ export default function Page() {
       setData(dataset);
       setIsDataLoading(false);
     });
+
+		getRangeBreakdowns();
   }, []);
   function reportStationClickHandler(station: STATION_IDS) {
     setSelectedStationId(station);
     setIsReportDialogOpen(true);
   }
+
   async function reportStationCodeHandler(stationCode: STATION_CODES) {
     setIsReporting(false);
     await fetch(`${BACKEND_URL}/report`, {
@@ -103,8 +110,42 @@ export default function Page() {
     });
   }
 
+	async function getRangeBreakdowns() {
+		const response = await fetch(`${BACKEND_URL}/range-delayed`)
+
+		const data = await response.json();
+		const banners = data.map((msg: any) => ({
+				text: `⚠️ Delays from ${msg[0]} to ${msg[1]}`, 
+			}));
+
+		setRangeBanners(banners);
+	}
+
   return (
     <>
+			{rangeBanners.length > 0 && (
+				<div className="w-full space-y-2 p-2">
+					{rangeBanners.map((banner, idx) => (
+						<div
+							key={idx}
+							className="flex items-center justify-between rounded-lg bg-yellow-100 border border-yellow-300 px-4 py-2 text-sm"
+						>
+							<span>{banner.text}</span>
+							<button
+								className="ml-4 text-xs font-bold text-gray-600 hover:text-black"
+								onClick={() =>
+									setRangeBanners((prev) =>
+										prev.filter((_, i) => i !== idx),
+									)
+								}
+							>
+								✕
+							</button>
+						</div>
+					))}
+				</div>
+			)}
+
       <Dialog
         open={isReportDialogOpen}
         onOpenChange={(open) => {
