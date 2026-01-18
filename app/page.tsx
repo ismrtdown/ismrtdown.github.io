@@ -143,7 +143,7 @@ export default function Home() {
         {!isLoading && (
           <MrtMap
             stationClickHandler={(stationName) => {
-              alert(stationName);
+              // alert(stationName);
             }}
             modifyTextHandler={modifyTextHandler}
           />
