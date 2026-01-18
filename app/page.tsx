@@ -46,8 +46,7 @@ export default function Home() {
             size="normal"
             className="inline-block mx-1"
           />{" "}
-          to
-          {to_station_name}{" "}
+          to {to_station_name}{" "}
           <StationBar
             size="normal"
             station_code={to_station_code}
@@ -70,8 +69,8 @@ export default function Home() {
       });
       const data = await res.json();
       const labels = Array.from(
+        //@ts-expect-error its ok
         (
-          //@ts-expect-error its ok
           rMapRef?.current?.current as unknown as HTMLDivElement
         ).querySelectorAll("#labels"),
       )[0];
