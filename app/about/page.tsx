@@ -72,7 +72,7 @@ export default function Page() {
                     />
                     <div className="font-bold">Wild pokemon</div>
                     <div className="text-center mb-2 text-sm">
-                      "pika pika?"
+                      "pi? pichu!"
                     </div>
                     <a href="https://github.com/Blahblahlolhahaha">
                       <img className="w-8 h-8" src="/github-mark.png" />
