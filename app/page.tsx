@@ -2,10 +2,10 @@
 import { BACKEND_URL } from "@/lib/utils";
 import { MrtMap, STATION_IDS } from "@/lib/MrtMap/index";
 import { StatusIndicator } from "@/lib/Status";
-import { useEffect, useRef, useState } from "react";
+import { ReactNode, useEffect, useRef, useState } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import StationCodeToNameMapping from "@/public/station_code_to_station.json";
-import { STATION_CODES } from "@/lib/StationBar";
+import { STATION_CODES, StationBar } from "@/lib/StationBar";
 import MrtMapping from "@/public/mrt_mapping.json";
 
 const COLOR_MAPPING = {
@@ -22,7 +22,7 @@ export default function Home() {
     //@ts-expect-error itsok
     rMapRef.current = mapRef;
   }
-  const [rangeBanners, setRangeBanners] = useState<{ text: string }[]>([]);
+  const [rangeBanners, setRangeBanners] = useState([]);
 
   async function getRangeBreakdowns() {
     const response = await fetch(`${BACKEND_URL}/range-delayed`);
@@ -38,9 +38,23 @@ export default function Home() {
       const to_station_name =
         StationCodeToNameMapping[to_station_code as STATION_CODES]["name"];
 
-      return {
-        text: `⚠️ Delays from ${from_station_name} (${from_station_code}) to ${to_station_name} (${to_station_code})`,
-      };
+      return (
+        <span key={`${from_station_code}-${to_station_code}`}>
+          ⚠️ Delays from {from_station_name}{" "}
+          <StationBar
+            station_code={from_station_code}
+            size="normal"
+            className="inline-block mx-1"
+          />{" "}
+          to
+          {to_station_name}{" "}
+          <StationBar
+            size="normal"
+            station_code={to_station_code}
+            className="inline-block mx-1"
+          />
+        </span>
+      );
     });
 
     setRangeBanners(banners);
@@ -113,7 +127,7 @@ export default function Home() {
                   key={idx}
                   className="flex items-center justify-between rounded-lg bg-yellow-100 border border-yellow-300 px-4 py-2 text-sm"
                 >
-                  <span>{banner.text}</span>
+                  {banner}
                   <button
                     className="ml-4 text-xs font-bold text-gray-600 hover:text-black"
                     onClick={() =>

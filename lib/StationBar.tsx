@@ -16,23 +16,28 @@ const LINE_COLOR_MAPPING = {
   NEL: "#9900aa",
   EWL: "#009645",
   DTL: "#005ec4",
+  SKLRT: "#748477",
+  PGLRT: "#748477",
 };
 
 export function StationBar({
   station_code,
   size,
-  name,
+  name = "",
+  className = "",
 }: {
   station_code: STATION_CODES;
   size: "normal" | "large";
-  name: string;
+  name?: string;
+  className?: string;
 }) {
   return (
-    <div className="relative flex items-center gap-x-2">
+    <div className={cn("relative flex items-center gap-x-2", className)}>
       <span
         className={cn(
-          "inline-flex items-center justify-center rounded-xl px-3 py-2 font-bold text-sm text-white shadow-lg ring-2 ring-white/20",
+          "inline-flex items-center justify-center rounded-xl px-3 py-2 font-bold text-white shadow-lg ring-2 ring-white/20",
           size === "large" ? "h-8 w-20" : "h-4 w-10",
+          size === "large" ? "text-sm" : "text-xs",
         )}
         style={{
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -42,11 +47,13 @@ export function StationBar({
       >
         {station_code}
       </span>
-      <div className="flex">
-        <span className="text-gray-800 text-sm group-hover:underline dark:text-gray-200">
-          {name}
-        </span>
-      </div>
+      {name && (
+        <div className="flex">
+          <span className="text-gray-800 text-sm group-hover:underline dark:text-gray-200">
+            {name}
+          </span>
+        </div>
+      )}
     </div>
   );
 }
