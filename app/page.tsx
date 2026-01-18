@@ -1,10 +1,12 @@
 "use client";
 import { BACKEND_URL } from "@/lib/utils";
-import { MrtMap } from "@/lib/MrtMap/index";
+import { MrtMap, STATION_IDS } from "@/lib/MrtMap/index";
 import { StatusIndicator } from "@/lib/Status";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import StationCodeToNameMapping from "@/public/station_code_to_station.json";
+import { STATION_CODES } from "@/lib/StationBar";
+import MrtMapping from "@/public/mrt_mapping.json"
 
 const COLOR_MAPPING = {
   0: "green",
@@ -13,32 +15,12 @@ const COLOR_MAPPING = {
 };
 
 export default function Home() {
+  const rMapRef = useRef(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [reports, setReports] = useState({});
 
   function modifyTextHandler(mapRef: React.RefObject<HTMLDivElement>) {
-    const labels = Array.from(mapRef.current.querySelectorAll("#labels"))[0];
-    // console.log(labels);
-
-    labels.querySelectorAll("a").forEach((el) => {
-      const textEle = el.querySelector("text");
-      // const posEle = textEle?.querySelector("tspan");
-      // console.log(posEle?.x, posEle?.y);
-      const newTspan = document.createElementNS(
-        "http://www.w3.org/2000/svg",
-        "tspan",
-      );
-      newTspan.innerHTML = renderToStaticMarkup(
-        <StatusIndicator status="green" />,
-      );
-      // newTspan.innerHTML = renderToStaticMarkup(<p>testing?</p>)
-      // newTspan.textContent = "Test here"
-      newTspan.setAttribute("dx", "5");
-      // newTspan.setAttribute("fill", "red");
-      textEle?.appendChild(newTspan);
-      // newTspan.render
-      // createPortal(<StatusIndicator label="Test" status="green" />, newTspan);
-    });
+    //@ts-expect-error itsok
+    rMapRef.current = mapRef;
   }
   const [rangeBanners, setRangeBanners] = useState<{ text: string }[]>([]);
 
@@ -46,13 +28,14 @@ export default function Home() {
     const response = await fetch(`${BACKEND_URL}/range-delayed`);
 
     const data = await response.json();
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const banners = data.map((msg: any) => {
       const from_station_code = msg[0];
       const from_station_name =
-        StationCodeToNameMapping[from_station_code]["name"];
+        StationCodeToNameMapping[from_station_code as STATION_CODES]["name"];
 
       const to_station_code = msg[1];
-      const to_station_name = StationCodeToNameMapping[to_station_code]["name"];
+      const to_station_name = StationCodeToNameMapping[to_station_code as STATION_CODES]["name"];
 
       return {
         text: `⚠️ Delays from ${from_station_name} (${from_station_code}) to ${to_station_name} (${to_station_code})`,
@@ -71,7 +54,35 @@ export default function Home() {
         },
       });
       const data = await res.json();
-      setReports(data);
+      //@ts-expect-error its ok
+      const labels = Array.from((rMapRef?.current?.current as unknown as HTMLDivElement).querySelectorAll("#labels"))[0];
+      // console.log(labels);
+
+      labels.querySelectorAll("a").forEach((el) => {
+        const stationId = el.id as STATION_IDS;
+        const textEle = el.querySelector("text");
+        // const posEle = textEle?.querySelector("tspan");
+        // console.log(posEle?.x, posEle?.y);
+        const newTspan = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "tspan",
+        );
+        const status = MrtMapping[stationId].mrtCodes.reduce((acc, cur) => {
+          // console.log(reports[cur]);
+          return Math.max(acc, data[cur] as number);
+        }, 0);
+
+        newTspan.innerHTML = renderToStaticMarkup(
+          <StatusIndicator status={COLOR_MAPPING[status as keyof typeof COLOR_MAPPING] as "green" | "red" | "orange"} />,
+        );
+        // newTspan.innerHTML = renderToStaticMarkup(<p>testing?</p>)
+        // newTspan.textContent = "Test here"
+        newTspan.setAttribute("dx", "3");
+        // newTspan.setAttribute("fill", "red");
+        textEle?.appendChild(newTspan);
+        // newTspan.render
+        // createPortal(<StatusIndicator label="Test" status="green" />, newTspan);
+      });
       await getRangeBreakdowns();
     }
     r();
